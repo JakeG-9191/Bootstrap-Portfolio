@@ -20,3 +20,130 @@ p {
     padding: 1rem;
 
 }
+
+#main-container {
+  background-color: white;
+  padding-bottom: 2rem;
+}
+
+h1 {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  color: #4aaaa5;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  clear: both;
+}
+
+#logo {
+  float: left;
+  width: 250px;
+  height: 90px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 90px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  background: #4aaaa5;
+}
+
+footer {
+  clear: both;
+  font-size: 12px;
+  color: #ffffff;
+  color: #cccccc;
+  text-align: center;
+  background: #666666;
+  border-top: 8px solid #4aaaa5;
+  height: 50px;
+  margin-top: 2rem;
+}
+
+.work {
+  position: relative;
+  width: 44%;
+  margin: 1rem;
+  overflow: auto;
+  padding: 0;
+}
+
+.work:nth-child(even) {
+  margin-right: 40px;
+}
+
+.work img {
+  width: 100%;
+  border: 0 none;
+  opacity: 0.8;
+}
+
+.work h3 {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 0;
+  font-weight: 300;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
+
+.auth-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
+#contact-form ul {
+  margin-bottom: 20px;
+}
+
+#contact-form li {
+  margin-bottom: 10px;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #dddddd;
+}
+
+textarea {
+  height: 200px;
+}
+
+/* Testing Stuff */
+
+.navbar-brand {
+  background: #4aaaa5;
+  padding: 1rem;
+}
+
+#name-tag {
+  color: #ffffff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2rem;
+}
