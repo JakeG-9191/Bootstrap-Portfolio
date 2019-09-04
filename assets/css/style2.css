@@ -4,6 +4,9 @@ body {
     line-height: 34px;
     color: #777777;
     background: url("../images/concrete_seamless.png");
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
   }
 
 * {
@@ -24,6 +27,7 @@ p {
 #main-container {
   background-color: white;
   padding-bottom: 2rem;
+  flex: 1;
 }
 
 h1 {
@@ -155,4 +159,9 @@ textarea {
 
 .navbar {
   padding: 0;
+  margin: 1rem;
+}
+
+#navbarSupportedContent {
+  margin-right: 1%
 }
