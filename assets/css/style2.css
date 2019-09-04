@@ -145,5 +145,14 @@ textarea {
 #name-tag {
   color: #ffffff;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 2rem;
+  font-size: x-large;
+}
+
+.nav-item {
+  margin-right: 0;
+  font-size: 1rem;
+}
+
+.navbar {
+  padding: 0;
 }
