@@ -82,9 +82,10 @@ footer {
 .work {
   position: relative;
   width: 44%;
-  margin: 1rem 5rem;
+  margin: 2rem;
   overflow: auto;
   padding: 0;
+  margin-left: 4%;
 }
 
 .work:nth-child(even) {
@@ -126,6 +127,10 @@ footer {
 
 #contact-form li {
   margin-bottom: 10px;
+}
+
+#contact-form {
+  margin-right: 5%;
 }
 
 label,
@@ -207,4 +212,9 @@ a {
 
 h3 {
   letter-spacing: 0px;
+} 
+
+#submit-button {
+  padding: 0 1%;
+  margin-left: 5%;
 }
