@@ -137,6 +137,7 @@ input[type=email],
 textarea {
   display: block;
   width: 100%;
+  color: black;
 }
 
 input[type=text],
@@ -145,11 +146,11 @@ textarea {
   height: 35px;
   padding: 0 10px;
   font-size: 14px;
-  border: 1px solid #dddddd;
+  border: 2px solid black;
 }
 
 textarea {
-  height: 200px;
+  height: 400px;
 }
 
 /* Testing Stuff */
@@ -170,6 +171,7 @@ textarea {
   margin-right: 0;
   font-size: 1rem;
   margin-top: 2%;
+  font-family: 'Merienda', cursive;
 }
 
 .navbar {
@@ -207,7 +209,7 @@ a {
 }
 
 .navbar-nav {
-  margin-left: 48rem;
+  margin-left: 44rem;
 }
 
 h3 {
@@ -215,6 +217,8 @@ h3 {
 } 
 
 #submit-button {
-  padding: 0 1%;
+  padding: 2% 5%;
   margin-left: 5%;
+  font-size: 20px;
+  font-family: 'Merienda', cursive;
 }
