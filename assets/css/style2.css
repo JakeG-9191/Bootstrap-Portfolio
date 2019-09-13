@@ -7,12 +7,12 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("https://www.setaswall.com/wp-content/uploads/2017/03/Moraine-Lake-4K-Ultra-HD-Wallpaper-4878x3225.jpg");
-  background-size: 150%;
+  background: url("../images/portfolio-background.jpg");
+  background-size: 125%;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  opacity: .91;
+  opacity: .92;
 }
 
 * {
