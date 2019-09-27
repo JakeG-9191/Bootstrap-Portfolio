@@ -275,5 +275,12 @@ hr {
 #carouselExampleFade {
   width: 86%;
   margin-left: 7%;
-  padding-bottom: 2rem;
+}
+
+#more-photos {
+  text-align: center;
+  background-color: #546172;
+  margin-bottom: -1rem;
+  border-radius: 36px;
+  letter-spacing: 0;
 }
