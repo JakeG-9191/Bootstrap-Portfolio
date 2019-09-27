@@ -30,6 +30,8 @@ p {
   padding: 1rem;
   color: black;
   text-align: justify;
+  width: 90%;
+  margin-left: 5%;
 }
 
 #main-container {
@@ -42,7 +44,7 @@ p {
 }
 
 h1 {
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-left: 20%;
   margin-bottom: 2rem;
   color: #546172;
@@ -251,6 +253,11 @@ h4 {
   margin-left: 0;
 }
 
-.btn {
-  width: 90%;
+hr {
+  border-top: 5px solid rgba(0,0,0,0.1);
+}
+
+#title-fix {
+  margin-left: 6%;
+  margin-bottom: 0;
 }
