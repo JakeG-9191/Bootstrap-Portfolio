@@ -287,6 +287,40 @@ hr {
 
 /* Media Queries */
 
+@media screen and (max-width: 1450px) {
+  #name-tag {
+    font-size: 48px;
+    width: 55%;
+    margin-right: 0;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .navbar-nav {
+    margin-left: 25%;
+    text-align: center;
+  }
+
+  .navbar-toggler {
+    text-align: center;
+    width: 100%;
+    margin: 1rem;
+  }
+
+  #main-container {
+    width: 90%;
+  }
+
+  body {
+    background-size: cover;
+  }
+
+  h1 {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 980px) {
   #name-tag {
     font-size: 30px;
