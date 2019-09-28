@@ -296,7 +296,37 @@ hr {
 }
 
 @media screen and (max-width: 640px) {
+  #name-tag {
+    font-size: 30px;
+    width: 100%;
+    margin-right: 0;
+    text-align: center;
+    padding: 1rem;
+  }
 
+  .navbar-nav {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .navbar-toggler {
+    text-align: center;
+    width: 100%;
+    margin: 1rem;
+  }
+
+  #main-container {
+    width: 90%;
+  }
+
+  body {
+    background-size: cover;
+  }
+
+  h1 {
+    margin-left: 0;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 375px) {
