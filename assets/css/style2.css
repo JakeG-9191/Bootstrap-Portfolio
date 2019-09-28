@@ -13,7 +13,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  opacity: .95;
+  opacity: .92;
 }
 
 * {
@@ -283,4 +283,52 @@ hr {
   margin-bottom: -1rem;
   border-radius: 36px;
   letter-spacing: 0;
+}
+
+/* Media Queries */
+
+/* @media screen and (max-width: 980px) {
+
+} */
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 640px) {
+
+}
+
+@media screen and (max-width: 375px) {
+  #name-tag {
+    font-size: 30px;
+    width: 100%;
+    margin-right: 0;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .navbar-nav {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .navbar-toggler {
+    text-align: center;
+    width: 100%;
+    margin: 1rem;
+  }
+
+  #main-container {
+    width: 90%;
+  }
+
+  body {
+    background-size: cover;
+  }
+
+  h1 {
+    margin-left: 0;
+    width: 100%;
+  }
 }
