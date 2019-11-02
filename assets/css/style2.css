@@ -26,7 +26,6 @@ body {
 }
 
 p {
-  background-color: white;
   padding: 1rem;
   color: black;
   text-align: justify;
@@ -35,7 +34,6 @@ p {
 }
 
 #main-container {
-  background-color: white;
   padding-bottom: 2rem;
   flex: 1;
   border-radius: 18px;
@@ -252,11 +250,6 @@ h4 {
   color: black;
 }
 
-.row {
-  margin-left: 0;
-  margin-right: 0;
-}
-
 hr {
   border-top: 5px solid rgba(0,0,0,0.1);
 }
@@ -283,6 +276,43 @@ hr {
   margin-bottom: -1rem;
   border-radius: 36px;
   letter-spacing: 0;
+}
+
+#profile-picture {
+  height: 150px;
+  width: 150px;
+  margin-left: 25rem;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: yellow;
+  margin-right: 25rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+#profile-name {
+  width: 100%;
+  text-align: center;
+}
+
+.tech-pics {
+  height: 100px;
+  width: 100px;
+  margin-right: 2rem;
+}
+
+.intro-me {
+  margin-top: 5rem;
+}
+
+.technology-me{
+    padding: 1rem;
+    margin-top: 10rem;
+}
+
+.about-me {
+  margin-top: 10rem;
 }
 
 /* Media Queries */
