@@ -314,6 +314,7 @@ hr {
 #about-me {
   margin-top: 10rem;
   text-align: center;
+  margin-left: 2%;
 }
 
 .technology-me{
@@ -325,6 +326,7 @@ hr {
   background: whitesmoke;
   border-radius: 18px;
   text-align: center;
+  margin-right: 2%;
 }
 
 .list-group {
