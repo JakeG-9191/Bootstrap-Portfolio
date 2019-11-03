@@ -321,6 +321,20 @@ hr {
   margin-top: 10rem;
 }
 
+.project-cards {
+  background: whitesmoke;
+  border-radius: 18px;
+  text-align: center;
+}
+
+.list-group {
+  background: maroon;
+}
+
+.btn-dark {
+  padding: 3%;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 1450px) {
