@@ -29,8 +29,6 @@ p {
   padding: 1rem;
   color: black;
   text-align: justify;
-  width: 90%;
-  margin-left: 5%;
 }
 
 #main-container {
@@ -65,7 +63,7 @@ h1 {
   clear: both;
 }
 
-#logo {
+/* #logo {
   float: left;
   width: 250px;
   height: 90px;
@@ -77,7 +75,7 @@ h1 {
   text-align: center;
   text-decoration: none;
   background: #546172;;
-}
+} */
 
 footer {
   clear: both;
@@ -91,7 +89,7 @@ footer {
   margin-top: 2rem;
 }
 
-.work {
+/* .work {
   position: relative;
   width: 44%;
   margin: 2rem;
@@ -121,9 +119,9 @@ footer {
   text-align: center;
   background: #546172;
   border-bottom: 0;
-}
+} */
 
-.auth-image {
+/* .auth-image {
   float: left;
   width: 200px;
   height: auto;
@@ -141,9 +139,9 @@ footer {
 
 #contact-form {
   margin-right: 5%;
-}
+} */
 
-label,
+/* label,
 input[type=text],
 input[type=email],
 textarea {
@@ -163,7 +161,7 @@ textarea {
 
 textarea {
   height: 400px;
-}
+} */
 
 .navbar-brand {
   background: #546172;
@@ -201,13 +199,14 @@ a {
 
 .card-img-top {
   border-radius: 18px;
+  height: 10rem;
 }
 
 .card-text:last-child {
   text-align: center;
 }
 
-#education {
+/* #education {
   border-style: solid;
   border-top: 0;
   border-right: 0;
@@ -215,68 +214,68 @@ a {
   width: 100%;
   margin-left: -1rem;
   text-align: center;
-}
+} */
 
 .navbar-nav {
   margin-left: 33rem;
   padding-top: 0;
 }
 
-h3 {
+/* h3 {
   letter-spacing: 0px;
   margin-bottom: 5%;
 }
 
 h4 {
   line-height: 5rem;
-}
+} */
 
-#submit-button {
+/* #submit-button {
   padding: 2% 5%;
   margin-left: 5%;
   font-size: 20px;
   font-family: 'Merienda', cursive;
-}
+} */
 
-.contact-section {
+/* .contact-section {
   width: 80%;
   margin-left: 10%;
   text-align: center;
   margin-top: 3rem;
-}
+} */
 
-#contact-links a {
+/* #contact-links a {
   margin: 4rem;
   color: black;
-}
+} */
 
-hr {
+/* hr {
   border-top: 5px solid rgba(0,0,0,0.1);
-}
+} */
 
-#title-fix {
+/* #title-fix {
   text-align: center;
   margin-bottom: 1rem;
-}
+} */
 
 .w-100 {
-  height: 450px;
+  height: 280px;
   border-radius: 36px;
   padding: 1rem;
 }
 
-#carouselExampleFade {
+/* #carouselExampleFade {
   width: 86%;
   margin-left: 7%;
-}
+} */
 
-#more-photos {
+/* #more-photos {
   text-align: center;
   background-color: #546172;
   margin-bottom: -1rem;
   border-radius: 36px;
   letter-spacing: 0;
-}
+} */
 
 #profile-picture {
   height: 150px;
@@ -285,15 +284,16 @@ hr {
   border-radius: 50%;
   border-style: solid;
   border-width: 5px;
-  border-color: yellow;
+  border-color: maroon;
   margin-right: 25rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   margin-top: 1rem;
 }
 
 #profile-name {
   width: 100%;
   text-align: center;
+  margin-bottom: 6rem;
 }
 
 .tech-pics {
@@ -306,27 +306,27 @@ hr {
   margin-top: 5rem;
 }
 
-.technology-me{
-    padding: 1rem;
-    margin-top: 10rem;
-}
-
 #about-me {
-  margin-top: 10rem;
+  padding: 5rem;
+  margin-top: 7rem;
   text-align: center;
-  margin-left: 2%;
+  margin-bottom: 7rem;
+  background: maroon;
+  color: white;
 }
 
 .technology-me{
   padding: 1rem;
-  margin-top: 10rem;
 }
 
 .project-cards {
   background: whitesmoke;
   border-radius: 18px;
   text-align: center;
-  margin-right: 2%;
+  margin-left: 3%;
+  border-style: solid;
+  border-color: maroon;
+  border-width: 5px;
 }
 
 .list-group {
@@ -335,6 +335,59 @@ hr {
 
 .btn-dark {
   padding: 3%;
+}
+
+#carouselExampleIndicators {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 5rem;
+  text-align: center;
+  background: whitesmoke;
+  border-radius: 18px;
+  padding: 1rem;
+  color: black;
+  border-style: solid;
+  border-color: maroon;
+  border-width: 5px;
+}
+
+.carousel-indicators {
+  bottom: -10%;
+}
+
+.project-button {
+  font-size: 1rem;
+}
+
+#full-width {
+  margin-left: -17rem;
+  min-width: 100vw;
+}
+
+#contact-information {
+  padding: 5rem;
+  margin-top: 7rem;
+  text-align: center;
+  background: maroon;
+  color: white;
+}
+
+.form-group {
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 2rem;
+}
+
+textarea.form-control {
+  height: 250px;
+}
+
+#contact-images {
+  height: 60px;
+}
+
+#contact-images-linked {
+  height: 75px;
 }
 
 /* Media Queries */
