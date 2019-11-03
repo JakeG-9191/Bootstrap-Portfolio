@@ -39,23 +39,6 @@ p {
   margin-bottom: 1rem;
 }
 
-/* h1 {
-  margin-top: 1rem;
-  margin-left: 20%;
-  margin-bottom: 2rem;
-  color: #546172;
-  font-family: 'Yeon Sung', cursive;
-  font-size: 48px;
-  width: 60%;
-  text-align: center;
-  border-style: solid;
-  border-left: 0;
-  border-right: 0;
-  border-top: 0;
-  border-color: black;
-  padding: 1rem;
-} */
-
 .container {
   width: 100%;
   max-width: 960px;
@@ -63,110 +46,15 @@ p {
   clear: both;
 }
 
-/* #logo {
-  float: left;
-  width: 250px;
-  height: 90px;
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 90px;
-  color: #ffffff;
-  text-align: center;
-  text-decoration: none;
-  background: #546172;;
-} */
-
 footer {
   clear: both;
   font-size: 12px;
-  color: #ffffff;
-  color: #cccccc;
+  color: white;
   text-align: center;
-  background: #666666;
+  background: maroon;
   border-top: 8px solid black;
   height: 50px;
   margin-top: 2rem;
-}
-
-/* .work {
-  position: relative;
-  width: 44%;
-  margin: 2rem;
-  overflow: auto;
-  padding: 0;
-  margin-left: 4%;
-}
-
-.work:nth-child(even) {
-  margin-right: 40px;
-}
-
-.work img {
-  width: 100%;
-  border: 0 none;
-  height: 15rem;
-  border-radius: 18px;
-}
-
-.work h3 {
-  position: absolute;
-  bottom: 20px;
-  width: 100%;
-  padding: 20px;
-  margin-bottom: 0;
-  color: #ffffff;
-  text-align: center;
-  background: #546172;
-  border-bottom: 0;
-} */
-
-/* .auth-image {
-  float: left;
-  width: 200px;
-  height: auto;
-  margin-top: 10px;
-  margin-right: 25px;
-}
-
-#contact-form ul {
-  margin-bottom: 20px;
-}
-
-#contact-form li {
-  margin-bottom: 10px;
-}
-
-#contact-form {
-  margin-right: 5%;
-} */
-
-/* label,
-input[type=text],
-input[type=email],
-textarea {
-  display: block;
-  width: 100%;
-  color: black;
-}
-
-input[type=text],
-input[type=email],
-textarea {
-  height: 35px;
-  padding: 0 10px;
-  font-size: 14px;
-  border: 2px solid black;
-}
-
-textarea {
-  height: 400px;
-} */
-
-.navbar-brand {
-  background: #546172;
-  padding: 1rem;
-  border-radius: 18px;
 }
 
 #name-tag {
@@ -174,23 +62,6 @@ textarea {
   font-family: 'Merienda', cursive;
   font-size: 48px;
   padding: 1rem 4rem;
-}
-
-.nav-item {
-  margin-right: 0;
-  font-size: 1rem;
-  margin-top: 2%;
-  font-family: 'Merienda', cursive;
-}
-
-.navbar {
-  padding: 0;
-  margin: 1rem;
-  border-radius: 18px;
-}
-
-#navbarSupportedContent {
-  margin-right: 1%;
 }
 
 a {
@@ -206,76 +77,11 @@ a {
   text-align: center;
 }
 
-/* #education {
-  border-style: solid;
-  border-top: 0;
-  border-right: 0;
-  border-left: 0;
-  width: 100%;
-  margin-left: -1rem;
-  text-align: center;
-} */
-
-.navbar-nav {
-  margin-left: 70rem;
-  padding-top: 0;
-}
-
-/* h3 {
-  letter-spacing: 0px;
-  margin-bottom: 5%;
-}
-
-h4 {
-  line-height: 5rem;
-} */
-
-/* #submit-button {
-  padding: 2% 5%;
-  margin-left: 5%;
-  font-size: 20px;
-  font-family: 'Merienda', cursive;
-} */
-
-/* .contact-section {
-  width: 80%;
-  margin-left: 10%;
-  text-align: center;
-  margin-top: 3rem;
-} */
-
-/* #contact-links a {
-  margin: 4rem;
-  color: black;
-} */
-
-/* hr {
-  border-top: 5px solid rgba(0,0,0,0.1);
-} */
-
-/* #title-fix {
-  text-align: center;
-  margin-bottom: 1rem;
-} */
-
 .w-100 {
   height: 280px;
   border-radius: 36px;
   padding: 1rem;
 }
-
-/* #carouselExampleFade {
-  width: 86%;
-  margin-left: 7%;
-} */
-
-/* #more-photos {
-  text-align: center;
-  background-color: #546172;
-  margin-bottom: -1rem;
-  border-radius: 36px;
-  letter-spacing: 0;
-} */
 
 #profile-picture {
   height: 150px;
