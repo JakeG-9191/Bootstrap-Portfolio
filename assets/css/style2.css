@@ -118,6 +118,11 @@ a {
   margin-bottom: 7rem;
   background: maroon;
   color: white;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  border-right: 0;
+  border-left: 0;
 }
 
 .technology-me{
@@ -176,6 +181,11 @@ a {
   background: maroon;
   color: white;
   padding-bottom: 5rem;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  border-right: 0;
+  border-left: 0;
 }
 
 .form-group {
