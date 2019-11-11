@@ -242,4 +242,22 @@ textarea.form-control {
   body {
     background-size: cover;
   }
+  .technology-me {
+    margin-left: 3rem;
+  }
+  .card {
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+  }
+  #carouselExampleIndicators {
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #full-width {
+    margin-left: 0;
+  }
+  #profile-picture {
+    margin-left: 30%;
+  }
 }
