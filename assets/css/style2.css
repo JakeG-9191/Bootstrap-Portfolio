@@ -83,17 +83,14 @@ a {
 .card-img-top {
   border-radius: 18px;
   height: 10rem;
-  margin-top: 3%
+  margin-top: 3%;
+  width: 98%;
+  margin-left: 1%;
 }
 
 .card-text:last-child {
   text-align: center;
 }
-
-/* #full-width {
-  min-width: 99vw;
-  margin-left: -17%;
-} */
 
 #profile-picture {
   height: 150px;
@@ -233,19 +230,80 @@ a {
 }
 
 @media screen and (max-width: 760px) {
-
+  body {
+    background-size: cover;
+  }
+  .project-cards {
+    max-width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+  .tech-pics {
+    margin-top: 1rem;
+  }
 }
 
 @media screen and (max-width: 480px) {
   body {
-    background-size: auto;
+    background-size: cover;
+  }
+  .project-cards {
+    margin-left: 0;
+    margin-top: 5%;
+  }
+  #carouselExampleIndicators {
+    width: 100%;
+    margin-left: 0;
+  }
+  #contact-images-linked {
+    height: 75px;
+    margin-right: 10%;
+    width: 35%;
+    margin-left: 10%;
+    margin-bottom: 1rem;
+  }
+  #contact-images {
+    height: 60px;
+    margin-right: 10%;
+    width: 30%;
+    margin-left: 10%;
+    margin-bottom: 1rem;
+  }
+  .tech-pics {
+    margin-top: 1rem;
   }
 }
 
 @media screen and (max-width: 380px) {
-
-}
-
-@media screen and (max-width: 280px) {
-
+  body {
+    background-size: cover;
+  }
+  .project-cards {
+    margin-left: 0;
+    min-width: 100%;
+    margin-top: 5%;
+  }
+  #carouselExampleIndicators {
+    width: 100%;
+    margin-left: 0;
+  }
+  #contact-images-linked {
+    height: 75px;
+    margin-right: 10%;
+    width: 35%;
+    margin-left: 10%;
+    margin-bottom: 1rem;
+  }
+  #contact-images {
+    height: 60px;
+    margin-right: 10%;
+    width: 30%;
+    margin-left: 10%;
+    margin-bottom: 1rem;
+  }
+  .tech-pics {
+    margin-top: 1rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+  }
 }
