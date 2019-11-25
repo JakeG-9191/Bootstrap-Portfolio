@@ -227,13 +227,13 @@ a {
 
 @media (max-width: 1200px) {
   body {
-    background-size: 200%;
+    background-size: auto;
   }
 }
 
 @media (max-width: 800px) {
   body {
-    background-size: 200%;
+    background-size: auto;
   }
   .project-cards {
     min-width: 80%;
@@ -279,7 +279,7 @@ a {
 
 @media (max-width: 380px) {
   body {
-    background-size: cover;
+    background-size: auto;
   }
   .project-cards {
     margin-left: 0;
