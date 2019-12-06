@@ -268,6 +268,14 @@ a {
   padding: 2rem;
 }
 
+h4, h5 {
+  color: maroon;
+}
+
+h4 {
+  padding-bottom: 1rem;
+}
+
 .talents {
   border-style: solid;
   padding: 1rem;
@@ -279,30 +287,10 @@ a {
   color: white;
 }
 
-#front-end {
-  color: white;
-  text-align: center;
-  font-size: 22px;
-  border-style: solid;
-  border-top: 0;
-  border-left: 0;
-  border-right: 0;
-  width: 60%;
-  margin-left: 20%;
-  padding: 0;
-}
-
-#back-end {
-  color: white;
-    text-align: center;
-    font-size: 22px;
-    border-style: solid;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    width: 60%;
-    margin-left: 20%;
-    padding: 0;
+.talents:hover {
+  background: white;
+  color: black;
+  animation: intro 2s linear;
 }
 
 /* Media Queries */
