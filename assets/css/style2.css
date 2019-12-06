@@ -22,7 +22,32 @@ font-family: 'Public Sans', sans-serif; */
   }
 }
 
+@keyframes flip {
+  0% {
+    transform: rotateY(0);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(0);
+  }
+}
 
+@keyframes picture {
+  0%{
+    border-color: maroon;
+    transform: scale(1);
+  }
+  50% {
+    border-width: 0;
+    transform: scale(1.4);
+  }
+  100% {
+    border-color: maroon;
+    transform: scale(1);
+  }
+}
 
 body {
   font-family: 'Public Sans', sans-serif;
@@ -129,6 +154,10 @@ a {
   margin-bottom: 3rem;
 }
 
+#profile-picture:hover {
+  animation: picture 2s linear; 
+}
+
 #profile-name {
   width: 100%;
   text-align: center;
@@ -161,7 +190,6 @@ a {
   border-left: 0;
   font-size: 22px;
   line-height: 3rem;
-
 }
 
 #about-me-2 {
@@ -183,6 +211,10 @@ a {
   text-align: center;
 }
 
+.tech-pics:hover {
+  animation: flip 2s linear; 
+}
+
 .project-cards {
   background: whitesmoke;
   border-radius: 18px;
@@ -191,6 +223,11 @@ a {
   border-style: solid;
   border-color: maroon;
   border-width: 5px;
+}
+
+.project-cards:hover {
+  transform: scale(1.4);
+  z-index: 10;
 }
 
 .list-group {
@@ -258,9 +295,19 @@ a {
   margin-right: 2rem;
 }
 
+#contact-images:hover {
+  transform: scale(1.4);
+  z-index: 10;
+}
+
 #contact-images-linked {
   height: 75px;
   margin-right: 2rem;
+}
+
+#contact-images-linked:hover {
+  transform: scale(1.4);
+  z-index: 10;
 }
 
 #contact-me {
@@ -268,7 +315,7 @@ a {
 }
 
 h4, h5 {
-  color: maroon;
+  color: white;
 }
 
 h4 {
@@ -283,18 +330,6 @@ h4 {
   border-radius: 18px;
   margin-left: 6%;
   background: black;
-  color: white;
-}
-
-.talents:hover {
-  background: white;
-  color: black;
-  animation: intro 2s linear;
-}
-
-.talents h5:hover {
-  font-size: 32px;
-  color: black;
 }
 
 /* Media Queries */
