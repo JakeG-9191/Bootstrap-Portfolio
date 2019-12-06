@@ -312,14 +312,14 @@ a {
     margin-left: 0;
   }
   #contact-images-linked {
-    height: 75px;
+    height: 110px;
     margin-right: 10%;
     width: 35%;
     margin-left: 10%;
     margin-bottom: 1rem;
   }
   #contact-images {
-    height: 60px;
+    height: 90px;
     margin-right: 10%;
     width: 30%;
     margin-left: 10%;
@@ -327,6 +327,9 @@ a {
   }
   .tech-pics {
     margin-top: 1rem;
+  }
+  .talents {
+    margin-bottom: 1rem;
   }
 }
 
@@ -361,5 +364,8 @@ a {
     margin-top: 1rem;
     margin-right: 5rem;
     margin-left: 5rem;
+  }
+  .talents {
+    margin-bottom: 1rem;
   }
 }
