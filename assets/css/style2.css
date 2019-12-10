@@ -54,7 +54,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("https://oren-m7.ru/images/500/DSC100579174.jpg");
+  background: url("https://besthqwallpapers.com/img/original/94913/black-stylish-background-black-geometric-background-black-abstraction-black-and-red-background.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -212,7 +212,7 @@ a {
 }
 
 .tech-pics:hover {
-  animation: flip 2s linear; 
+  animation: flip 2s infinite; 
 }
 
 .project-cards {
