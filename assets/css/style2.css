@@ -362,6 +362,17 @@ h4 {
   display: none; 
 }
 
+.navbar-light .navbar-toggler {
+  background-color: maroon;
+  margin-bottom: 1rem;
+  border-radius: 1px;
+  border-color: white;
+}
+
+.bg-dark {
+  background-color: black !important;
+}
+
 /* Media Queries */
 
 @media (max-width: 1200px) {
