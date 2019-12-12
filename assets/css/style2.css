@@ -88,8 +88,26 @@ body {
   font-size: 22px;
 }
 
-.btn-dark.nav-btn {
-  width: 33%;
+.navbar {
+  width: 99vw;
+  background: black;
+  z-index: 70;
+  padding: 1rem 1rem 0;
+  opacity: .8;
+}
+
+.navbar h4{
+  padding-bottom: 0;
+}
+
+.nav-bar{
+  float: left;
+  padding: 1rem;
+  margin-bottom: 0;
+}
+
+.nav-bar:hover {
+  background: maroon;
 }
 
 .w-100 {
@@ -180,7 +198,7 @@ a {
 }
 
 .intro-me {
-  margin-top: 5rem;
+  margin-top: 7rem;
   text-align: center;
 }
 

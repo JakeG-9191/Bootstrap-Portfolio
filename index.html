@@ -26,15 +26,13 @@
 
 <body>
 
-  <nav class="navbar navbar-light">
-    <form class="form-inline">
-      <h5>Jacob Garlick | Full Stack Developer</h5>
+  <nav class="navbar navbar-light fixed-top">
+      <h4>Jacob Garlick | Full Stack Developer</h4>
       <div>
-        <button class="nav-btn btn btn-light" type="button">About Me</button>
-        <button class="nav-btn btn btn-light" type="button">Smaller button</button>
-        <button class="nav-btn btn btn-light" type="button">Smaller button</button>
+          <a href="#profile-picture"><h5 class="nav-bar">About Me</h5></a>
+          <a href="#project-zone"><h5 class="nav-bar">Personal Projects</h5></a>
+          <a href="#contact-information"><h5 class="nav-bar">Contact Me</h5></a>
       </div>
-    </form>
   </nav>
 
   <div id="main-container" class="container">
@@ -62,7 +60,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="card project-cards col-md-3 col-12">
+          <div class="card project-cards col-md-3 col-12" id="project-zone">
             <img src="assets/images/WashingtonPost.JPG" class="card-img-top" alt="Washington Post Scraper">
             <div class="card-body">
               <h5 class="card-title">Washington Post Scraper</h5>
