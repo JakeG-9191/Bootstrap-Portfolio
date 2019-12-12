@@ -358,6 +358,10 @@ h4 {
   background: black;
 }
 
+.navbar-toggler {
+  display: none; 
+}
+
 /* Media Queries */
 
 @media (max-width: 1200px) {
@@ -380,13 +384,21 @@ h4 {
   }
 }
 
+@media (max-width: 585px) {
+  .nav-bar {
+    float: none;
+  }
+  .navbar-toggler {
+    display: inline-block; 
+  }
+  #main-navigation {
+    display: none !important;
+  }
+}
+
 @media (max-width: 480px) {
   body {
     background-size: auto;
-  }
-  .nav-bar {
-    float: none;
-    display: inline-block;
   }
   .project-cards {
     margin-left: 0;
