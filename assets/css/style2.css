@@ -88,6 +88,10 @@ body {
   font-size: 22px;
 }
 
+.btn-dark.nav-btn {
+  width: 33%;
+}
+
 .w-100 {
   height: 14rem;
   width: 100%;
