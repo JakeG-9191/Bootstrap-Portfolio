@@ -92,12 +92,13 @@ body {
   width: 100vw;
   background: black;
   z-index: 70;
-  padding: 1rem 1rem 0;
+  padding: 0 1rem;
   opacity: .8;
 }
 
-.navbar h4{
+#correct-nav{
   padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .nav-bar{
@@ -340,7 +341,7 @@ a {
   padding: 2rem;
 }
 
-h4, h5 {
+h4, h5, h6 {
   color: white;
 }
 
