@@ -382,16 +382,33 @@ h4 {
   }
 }
 
+@media (max-width: 930px) {
+  .navbar {
+    padding-top: 1rem;
+  }
+}
+
 @media (max-width: 800px) {
   body {
     background-size: auto;
   }
+  .project-cards:hover {
+    transform: none;
+    z-index: 10;
+  }
   .project-cards {
-    min-width: 80%;
-    margin-left: 10%;
+    margin-left: 0;
     margin-top: 5%;
+    min-width: 100%;
   }
   .tech-pics {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 770px) {
+  .talents {
+    margin-left: 0;
     margin-top: 1rem;
   }
 }
@@ -410,7 +427,7 @@ h4 {
 
 @media (max-width: 480px) {
   body {
-    background-size: auto;
+    background-size: cover;
   }
   .project-cards {
     margin-left: 0;
@@ -445,7 +462,7 @@ h4 {
 
 @media (max-width: 380px) {
   body {
-    background-size: auto;
+    background-size: cover;
   }
   .project-cards {
     margin-left: 0;
