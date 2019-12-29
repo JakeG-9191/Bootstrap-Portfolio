@@ -1,266 +1,467 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-us">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-149334216-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
 
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-149334216-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+      gtag('config', 'UA-149334216-1');
+    </script>
 
-    gtag('config', 'UA-149334216-1');
-  </script>
+    <meta charset="UTF-8" />
+    <title>Jacob Garlick | Full Stack Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootswatch CDN -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/lux/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-hVpXlpdRmJ+uXGwD5W6HZMnR9ENcKVRn855pPbuI/mwPIEKAuKgTKgGksVGmlAvt"
+      crossorigin="anonymous"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Calistoga|Public+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Favicon -->
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+    <!-- Additional css -->
+    <link rel="stylesheet" href="assets/css/style2.css" />
+  </head>
 
-  <meta charset="UTF-8">
-  <title>Jacob Garlick | Full Stack Developer</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Bootswatch CDN -->
-  <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/lux/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-hVpXlpdRmJ+uXGwD5W6HZMnR9ENcKVRn855pPbuI/mwPIEKAuKgTKgGksVGmlAvt" crossorigin="anonymous">
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Calistoga|Public+Sans&display=swap" rel="stylesheet">
-  <!-- Additional css -->
-  <link rel="stylesheet" href="assets/css/style2.css">
-</head>
-
-<body>
-
-  <nav class="navbar navbar-light fixed-top">
+  <body>
+    <nav class="navbar navbar-light fixed-top">
       <h5 id="correct-nav">Jacob Garlick | Full Stack Developer</h5>
-      <div class="collapse" id="navbarToggleExternalContent">
+      <img src="https://www.codewars.com/users/JakeG-9191/badges/large" />
+      <!-- <div class="collapse" id="navbarToggleExternalContent"> -->
         <div class="bg-dark p-4">
           <a href="#profile-picture"><h6 class="nav-bar">About Me</h6></a>
           <a href="#project-zone"><h6 class="nav-bar">Personal Projects</h6></a>
           <a href="#contact-information"><h6 class="nav-bar">Contact Me</h6></a>
         </div>
       </div>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarToggleExternalContent"
+        aria-controls="navbarToggleExternalContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
         <span class="navbar-toggler-icon"></span>
       </button>
       <div id="main-navigation">
-          <a href="#profile-picture"><h6 class="nav-bar">About Me</h6></a>
-          <a href="#project-zone"><h6 class="nav-bar">Personal Projects</h6></a>
-          <a href="#contact-information"><h6 class="nav-bar">Contact Me</h6></a>
+        <a href="#profile-picture"><h6 class="nav-bar">About Me</h6></a>
+        <a href="#project-zone"><h6 class="nav-bar">Personal Projects</h6></a>
+        <a href="#contact-information"><h6 class="nav-bar">Contact Me</h6></a>
       </div>
-  </nav>
+    </nav>
 
-  <div id="main-container" class="container">
-    <div class="row">
-      <div class="intro-me col-md-12 col-12">
-        <img id="profile-picture" src="assets/images/links/Image 1.jpg">
-        <h1 id="profile-name">Hi, I'm Jake,</h1>
-        <h2 id="profile-name">I design and code elegant websites and applications...</h2>
-      </div>
-      <div class="technology-me col-md-12 col-12">
-        <img class="tech-pics" src="assets/images/tech/HTML5_Logo_512.png">
-        <img class="tech-pics" src="assets/images/tech/badge-css-3-512.png">
-        <img class="tech-pics" src="assets/images/tech/javascriptlang.png">
-        <img class="tech-pics" src="assets/images/tech/430-4309307_react-js-transparent-logo-hd-png-download.png">
-        <img class="tech-pics" src="assets/images/tech/511529_preview.png">
-        <img class="tech-pics" src="assets/images/tech/mongodb-226029.png">
-        <img class="tech-pics" src="assets/images/tech/sql_694757.png">
-      </div>
-      <div class="about-me col-md-12 col-12">
-        <div id="full-width">
-          <div id="about-me" class="row">I deliver solutions to problems concerning Front and Back End development
-            through functional and clean code development. From websites to applications to browser based games, I design, develop and
-            produce stylish and polished projects, critically involved from planning to publication.
-            You can see a curated list of my work below, along with some of my most recent projects.
-          </div>
-        </div>
-        <div class="row">
-          <div class="card project-cards col-md-3 col-12" id="project-zone">
-            <img src="assets/images/WashingtonPost.JPG" class="card-img-top" alt="Washington Post Scraper">
-            <div class="card-body">
-              <h5 class="card-title">Washington Post Scraper</h5>
-              <p class="card-text">This application allows users to scrape the Washington Post for the most recent new
-                stories. Users may also save and comment on saved articles.</p>
-            </div>
-            <div class="list-group list-group-flush">
-              <p class="list-group-item">JavaScript | MongoDB | Bootstrap</p>
-            </div>
-            <div class="card-body">
-              <a target="_blank" href="https://chilling-crypt-08855.herokuapp.com/"
-                  class="card-link"><button class="btn-dark">Live Link</button></a>
-              <a target="_blank" href="https://github.com/JakeG-9191/Mongo-Search"
-                  class="card-link"><button class="btn-dark">Github Repo</button></a>
-            </div>
-          </div>
-          <div class="card project-cards col-md-3 col-12">
-            <img src="assets/images/ReignOfReact.JPG" class="card-img-top" alt="Reign of React">
-            <div class="card-body">
-              <h5 class="card-title">Reign of React</h5>
-              <p class="card-text">This full-stack MERN application is an RPG game with a card collection / party creation
-                aspect
-                and features persistent data so players can continue to return and hone thier skills.</p>
-            </div>
-            <div class="list-group list-group-flush">
-              <p class="list-group-item">React | Express | Node.JS | MongoDB | Bootstrap</p>
-            </div>
-            <div class="card-body">
-              <a target="_blank" href="https://frozen-garden-53520.herokuapp.com/"
-                  class="card-link"><button class="btn-dark">Live Link</button></a>
-              <a target="_blank" href="https://github.com/ngocduyvo12/project-3-MERN"
-                  class="card-link"><button class="btn-dark">Github Repo</button></a>
-            </div>
-          </div>
-          <div class="card project-cards col-md-3 col-12">
-            <img src="assets/images/DevConnector.JPG" class="card-img-top" alt="Friend Finder">
-            <div class="card-body">
-              <h5 class="card-title">DevConnector</h5>
-              <p class="card-text">This full-stack MERN application provides users with a new social media experience
-                tailored towards developers. Users can create bios, show off development skills and interact with other
-                users.</p>
-            </div>
-            <div class="list-group list-group-flush">
-              <p class="list-group-item">MongoDB Atlas | React | Redux | Express | Node.JS | Bootstrap</p>
-            </div>
-            <div class="card-body">
-              <a target="_blank" href="https://hidden-falls-47750.herokuapp.com/"
-                  class="card-link"><button class="btn-dark">Live Link</button></a>
-              <a target="_blank" href="https://github.com/JakeG-9191/Denver-Dev-Connect" class="card-link"><button
-                  class="btn-dark">Github Repo</button></a>
-            </div>
-          </div>
-        </div>
-        <div id="carouselExampleIndicators" class="carousel slide col-12" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              Action Giphy App
-              <img src="assets/images/john-wick-club-scene-screengrab.jpg" class="d-block w-100" alt="Action Giphy App">
-              <button class="btn-dark btn-sm project-button"><a target="_blank"
-                  href="https://jakeg-9191.github.io/Giphy-API/">Live
-                  Link</a></button>
-              <button class="btn-dark btn-sm project-button"><a target="_blank"
-                  href="https://github.com/JakeG-9191/Giphy-API">Github
-                  Repo</a></button>
-            </div>
-            <div class="carousel-item">
-              Friend Finder
-              <img src="assets/images/Friendfinder.JPG" class="d-block w-100" alt="Friend Finder">
-              <button class="btn-dark btn-sm project-button"><a target="_blank"
-                  href="https://boiling-bayou-10154.herokuapp.com/">Live
-                  Link</a></button>
-              <button class="btn-dark btn-sm project-button"><a target="_blank"
-                  href="https://github.com/JakeG-9191/Friend-Finder">Github
-                  Repo</a></button>
-            </div>
-            <div class="carousel-item">
-              Bearfoot Voyager
-              <img src="assets/images/Bearfoot Voyager.JPG" class="d-block w-100" alt="Bearfoot Voyager">
-              <button class="btn-dark btn-sm project-button"><a target="_blank"
-                  href="https://dlafrance99.github.io/Project-one-take-two/">Live
-                  Link</a></button>
-              <button class="btn-dark btn-sm project-button"><a target="_blank"
-                  href="https://github.com/dlafrance99/Project-one-take-two">Github
-                  Repo</a></button>
-            </div>
-            <div class="carousel-item">
-              Burger Madness App
-              <img src="assets/images/BurgerApp.JPG" class="d-block w-100" alt="Burger Madness">
-              <button class="btn-dark btn-sm project-button"><a target="_blank"
-                  href="https://agile-hollows-27413.herokuapp.com/">Live
-                  Link</a></button>
-              <button class="btn-dark btn-sm project-button"><a target="_blank"
-                  href="https://github.com/JakeG-9191/Burger-Madness">Github
-                  Repo</a></button>
-            </div>
-            <div class="carousel-item">
-              Crystal Collector
-              <img src="assets/images/Purple Crystal.jpg" class="d-block w-100" alt="Crystal Collector">
-              <button class="btn-dark btn-sm project-button"><a target="_blank"
-                  href="https://jakeg-9191.github.io/Unit-4-Game/">Live
-                  Link</a></button>
-              <button class="btn-dark btn-sm project-button"><a target="_blank"
-                  href="https://github.com/JakeG-9191/Unit-4-Game">Github
-                  Repo</a></button>
-            </div>
-            <div class="carousel-item">
-              MySQL Bamazon Store (CLI)
-              <img src="assets/images/managerLowInventory.JPG" class="d-block w-100" alt="Bamazon Application">
-              <!-- <button class="btn-dark project-button"><a href="...">Live
-                Link</a></button> -->
-              <button class="btn-dark btn-sm project-button"><a target="_blank"
-                  href="https://github.com/JakeG-9191/Bamazon-Node-App">Github
-                  Repo</a></button>
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-      </div>
-      <div class="contact-me col-md-12 col-12">
-        <div class="row" id="about-me-2">
-          <div class="col-md-5 talents">
-            <h4>Front End Skills</h4>
-            <h5>HTML5</h5>
-            <h5>CSS3</h5>
-            <h5>JavaScript</h5>
-            <h5>React</h5>
-            <h5>Redux</h5>
-            <h5>Bootstrap</h5>
-          </div>
-          <div class="col-md-5 talents">
-            <h4>Back End Skills</h4>
-            <h5>Node.JS</h5>
-            <h5>MongoDB</h5>
-            <h5>Express.JS</h5>
-            <h5>MySQL</h5>
-            <h5>RESTful APIs</h5>
-          </div>
-        </div>
-        <div id="full-width">
-          <form id="contact-information">
-            <div id="contact-me">
-              <h3 style="color: white">Contact Me</h3>
-            </div>
-            <a target="_blank" href="https://github.com/JakeG-9191"><img id="contact-images"
-                src="assets/images/links/github_PNG83.png"></a>
-            <a target="_blank" href="https://www.linkedin.com/in/jacob-garlick/"><img id="contact-images-linked"
-                src="assets/images/links/linkedin-icon-png-transparent-background-13.png"></a>
-            <a target="_blank" href="https://twitter.com/garlick_jake"><img id="contact-images"
-                src="assets/images/links/23681.png"></a>
-            <a target="_blank" href="mailto:jacobgarlick@msn.com"><img id="contact-images"
-                src="assets/images/links/email_PNG55.png"></a>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <footer>
-    <div class="container">
+    <div id="main-container" class="container">
       <div class="row">
-        <div class="col-md-12 col-12">
-          Copyright &copy (2020)
+        <div class="intro-me col-md-12 col-12">
+          <img id="profile-picture" src="assets/images/links/Image 1.jpg" />
+          <h1 id="profile-name">Hi, I'm Jake,</h1>
+          <h2 id="profile-name">
+            I design and code elegant websites and applications...
+          </h2>
+        </div>
+        <div class="technology-me col-md-12 col-12">
+          <img class="tech-pics" src="assets/images/tech/HTML5_Logo_512.png" />
+          <img class="tech-pics" src="assets/images/tech/badge-css-3-512.png" />
+          <img class="tech-pics" src="assets/images/tech/javascriptlang.png" />
+          <img
+            class="tech-pics"
+            src="assets/images/tech/430-4309307_react-js-transparent-logo-hd-png-download.png"
+          />
+          <img class="tech-pics" src="assets/images/tech/511529_preview.png" />
+          <img class="tech-pics" src="assets/images/tech/mongodb-226029.png" />
+          <img class="tech-pics" src="assets/images/tech/sql_694757.png" />
+        </div>
+        <div class="about-me col-md-12 col-12">
+          <div id="full-width">
+            <div id="about-me" class="row">
+              I deliver solutions to problems concerning Front and Back End
+              development through functional and clean code development. From
+              websites to applications to browser based games, I design, develop
+              and produce stylish and polished projects, critically involved
+              from planning to publication. You can see a curated list of my
+              work below, along with some of my most recent projects.
+            </div>
+          </div>
+          <div class="row">
+            <div class="card project-cards col-md-3 col-12" id="project-zone">
+              <img
+                src="assets/images/WashingtonPost.JPG"
+                class="card-img-top"
+                alt="Washington Post Scraper"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Washington Post Scraper</h5>
+                <p class="card-text">
+                  This application allows users to scrape the Washington Post
+                  for the most recent new stories. Users may also save and
+                  comment on saved articles.
+                </p>
+              </div>
+              <div class="list-group list-group-flush">
+                <p class="list-group-item">JavaScript | MongoDB | Bootstrap</p>
+              </div>
+              <div class="card-body">
+                <a
+                  target="_blank"
+                  href="https://chilling-crypt-08855.herokuapp.com/"
+                  class="card-link"
+                  ><button class="btn-dark">Live Link</button></a
+                >
+                <a
+                  target="_blank"
+                  href="https://github.com/JakeG-9191/Mongo-Search"
+                  class="card-link"
+                  ><button class="btn-dark">Github Repo</button></a
+                >
+              </div>
+            </div>
+            <div class="card project-cards col-md-3 col-12">
+              <img
+                src="assets/images/ReignOfReact.JPG"
+                class="card-img-top"
+                alt="Reign of React"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Reign of React</h5>
+                <p class="card-text">
+                  This full-stack MERN application is an RPG game with a card
+                  collection / party creation aspect and features persistent
+                  data so players can continue to return and hone thier skills.
+                </p>
+              </div>
+              <div class="list-group list-group-flush">
+                <p class="list-group-item">
+                  React | Express | Node.JS | MongoDB | Bootstrap
+                </p>
+              </div>
+              <div class="card-body">
+                <a
+                  target="_blank"
+                  href="https://frozen-garden-53520.herokuapp.com/"
+                  class="card-link"
+                  ><button class="btn-dark">Live Link</button></a
+                >
+                <a
+                  target="_blank"
+                  href="https://github.com/ngocduyvo12/project-3-MERN"
+                  class="card-link"
+                  ><button class="btn-dark">Github Repo</button></a
+                >
+              </div>
+            </div>
+            <div class="card project-cards col-md-3 col-12">
+              <img
+                src="assets/images/DevConnector.JPG"
+                class="card-img-top"
+                alt="Friend Finder"
+              />
+              <div class="card-body">
+                <h5 class="card-title">DevConnector</h5>
+                <p class="card-text">
+                  This full-stack MERN application provides users with a new
+                  social media experience tailored towards developers. Users can
+                  create bios, show off development skills and interact with
+                  other users.
+                </p>
+              </div>
+              <div class="list-group list-group-flush">
+                <p class="list-group-item">
+                  MongoDB Atlas | React | Redux | Express | Node.JS | Bootstrap
+                </p>
+              </div>
+              <div class="card-body">
+                <a
+                  target="_blank"
+                  href="https://hidden-falls-47750.herokuapp.com/"
+                  class="card-link"
+                  ><button class="btn-dark">Live Link</button></a
+                >
+                <a
+                  target="_blank"
+                  href="https://github.com/JakeG-9191/Denver-Dev-Connect"
+                  class="card-link"
+                  ><button class="btn-dark">Github Repo</button></a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide col-12"
+            data-ride="carousel"
+          >
+            <ol class="carousel-indicators">
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="1"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="2"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="3"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="4"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="5"
+              ></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                Action Giphy App
+                <img
+                  src="assets/images/john-wick-club-scene-screengrab.jpg"
+                  class="d-block w-100"
+                  alt="Action Giphy App"
+                />
+                <button class="btn-dark btn-sm project-button">
+                  <a
+                    target="_blank"
+                    href="https://jakeg-9191.github.io/Giphy-API/"
+                    >Live Link</a
+                  >
+                </button>
+                <button class="btn-dark btn-sm project-button">
+                  <a
+                    target="_blank"
+                    href="https://github.com/JakeG-9191/Giphy-API"
+                    >Github Repo</a
+                  >
+                </button>
+              </div>
+              <div class="carousel-item">
+                Friend Finder
+                <img
+                  src="assets/images/Friendfinder.JPG"
+                  class="d-block w-100"
+                  alt="Friend Finder"
+                />
+                <button class="btn-dark btn-sm project-button">
+                  <a
+                    target="_blank"
+                    href="https://boiling-bayou-10154.herokuapp.com/"
+                    >Live Link</a
+                  >
+                </button>
+                <button class="btn-dark btn-sm project-button">
+                  <a
+                    target="_blank"
+                    href="https://github.com/JakeG-9191/Friend-Finder"
+                    >Github Repo</a
+                  >
+                </button>
+              </div>
+              <div class="carousel-item">
+                Bearfoot Voyager
+                <img
+                  src="assets/images/Bearfoot Voyager.JPG"
+                  class="d-block w-100"
+                  alt="Bearfoot Voyager"
+                />
+                <button class="btn-dark btn-sm project-button">
+                  <a
+                    target="_blank"
+                    href="https://dlafrance99.github.io/Project-one-take-two/"
+                    >Live Link</a
+                  >
+                </button>
+                <button class="btn-dark btn-sm project-button">
+                  <a
+                    target="_blank"
+                    href="https://github.com/dlafrance99/Project-one-take-two"
+                    >Github Repo</a
+                  >
+                </button>
+              </div>
+              <div class="carousel-item">
+                Burger Madness App
+                <img
+                  src="assets/images/BurgerApp.JPG"
+                  class="d-block w-100"
+                  alt="Burger Madness"
+                />
+                <button class="btn-dark btn-sm project-button">
+                  <a
+                    target="_blank"
+                    href="https://agile-hollows-27413.herokuapp.com/"
+                    >Live Link</a
+                  >
+                </button>
+                <button class="btn-dark btn-sm project-button">
+                  <a
+                    target="_blank"
+                    href="https://github.com/JakeG-9191/Burger-Madness"
+                    >Github Repo</a
+                  >
+                </button>
+              </div>
+              <div class="carousel-item">
+                Crystal Collector
+                <img
+                  src="assets/images/Purple Crystal.jpg"
+                  class="d-block w-100"
+                  alt="Crystal Collector"
+                />
+                <button class="btn-dark btn-sm project-button">
+                  <a
+                    target="_blank"
+                    href="https://jakeg-9191.github.io/Unit-4-Game/"
+                    >Live Link</a
+                  >
+                </button>
+                <button class="btn-dark btn-sm project-button">
+                  <a
+                    target="_blank"
+                    href="https://github.com/JakeG-9191/Unit-4-Game"
+                    >Github Repo</a
+                  >
+                </button>
+              </div>
+              <div class="carousel-item">
+                MySQL Bamazon Store (CLI)
+                <img
+                  src="assets/images/managerLowInventory.JPG"
+                  class="d-block w-100"
+                  alt="Bamazon Application"
+                />
+                <!-- <button class="btn-dark project-button"><a href="...">Live
+                Link</a></button> -->
+                <button class="btn-dark btn-sm project-button">
+                  <a
+                    target="_blank"
+                    href="https://github.com/JakeG-9191/Bamazon-Node-App"
+                    >Github Repo</a
+                  >
+                </button>
+              </div>
+            </div>
+            <a
+              class="carousel-control-prev"
+              href="#carouselExampleIndicators"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carouselExampleIndicators"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+        <div class="contact-me col-md-12 col-12">
+          <div class="row" id="about-me-2">
+            <div class="col-md-5 talents">
+              <h4>Front End Skills</h4>
+              <h5>HTML5</h5>
+              <h5>CSS3</h5>
+              <h5>JavaScript</h5>
+              <h5>React</h5>
+              <h5>Redux</h5>
+              <h5>Bootstrap</h5>
+            </div>
+            <div class="col-md-5 talents">
+              <h4>Back End Skills</h4>
+              <h5>Node.JS</h5>
+              <h5>MongoDB</h5>
+              <h5>Express.JS</h5>
+              <h5>MySQL</h5>
+              <h5>RESTful APIs</h5>
+            </div>
+          </div>
+          <div id="full-width">
+            <form id="contact-information">
+              <div id="contact-me">
+                <h3 style="color: white">Contact Me</h3>
+              </div>
+              <a target="_blank" href="https://github.com/JakeG-9191"
+                ><img
+                  id="contact-images"
+                  src="assets/images/links/github_PNG83.png"
+              /></a>
+
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/jacob-garlick/"
+                ><img
+                  id="contact-images-linked"
+                  src="assets/images/links/linkedin-icon-png-transparent-background-13.png"
+              /></a>
+
+              <a target="_blank" href="https://twitter.com/garlick_jake"
+                ><img id="contact-images" src="assets/images/links/23681.png"
+              /></a>
+
+              <a target="_blank" href="mailto:jacobgarlick@msn.com"
+                ><img
+                  id="contact-images"
+                  src="assets/images/links/email_PNG55.png"
+              /></a>
+            </form>
+          </div>
         </div>
       </div>
     </div>
-  </footer>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-12">
+            Copyright &copy (2020)
+          </div>
+        </div>
+      </div>
+    </footer>
 
-</body>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
