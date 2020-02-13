@@ -6,19 +6,19 @@ font-family: 'Public Sans', sans-serif; */
     opacity: 0;
   }
   10% {
-    opacity: .1;
+    opacity: 0.1;
   }
   30% {
-    opacity: .3;
+    opacity: 0.3;
   }
   60% {
-    opacity: .6;
+    opacity: 0.6;
   }
   90% {
-    opacity: .9;
+    opacity: 0.9;
   }
   100% {
-    opacity: .92;
+    opacity: 0.92;
   }
 }
 
@@ -35,7 +35,7 @@ font-family: 'Public Sans', sans-serif; */
 }
 
 @keyframes picture {
-  0%{
+  0% {
     border-color: maroon;
     transform: scale(1);
   }
@@ -54,7 +54,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("https://besthqwallpapers.com/img/original/94913/black-stylish-background-black-geometric-background-black-abstraction-black-and-red-background.jpg");
+  background: url('https://besthqwallpapers.com/img/original/94913/black-stylish-background-black-geometric-background-black-abstraction-black-and-red-background.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -62,14 +62,14 @@ body {
   flex-direction: column;
   min-height: 100vh;
   width: 100%;
-  animation: intro 6s linear; 
+  animation: intro 6s linear;
 }
 
 * {
   box-sizing: border-box;
 }
 
-.card-link+.card-link {
+.card-link + .card-link {
   margin-left: 0;
 }
 
@@ -93,15 +93,15 @@ body {
   background: black;
   z-index: 70;
   padding: 0 1rem;
-  opacity: .8;
+  opacity: 0.8;
 }
 
-#correct-nav{
+#correct-nav {
   padding-bottom: 0;
   margin-bottom: 0;
 }
 
-.nav-bar{
+.nav-bar {
   float: left;
   padding: 1rem;
   margin-bottom: 0;
@@ -182,7 +182,7 @@ a {
 }
 
 #profile-picture:hover {
-  animation: picture 2s linear; 
+  animation: picture 2s linear;
 }
 
 #profile-name {
@@ -233,13 +233,13 @@ a {
   border-left: 0;
 }
 
-.technology-me{
+.technology-me {
   padding: 1rem;
   text-align: center;
 }
 
 .tech-pics:hover {
-  animation: flip 2s infinite; 
+  animation: flip 2s infinite;
 }
 
 .project-cards {
@@ -341,7 +341,9 @@ a {
   padding: 2rem;
 }
 
-h4, h5, h6 {
+h4,
+h5,
+h6 {
   color: white;
 }
 
@@ -360,7 +362,7 @@ h4 {
 }
 
 .navbar-toggler {
-  display: none; 
+  display: none;
 }
 
 .navbar-light .navbar-toggler {
@@ -376,6 +378,19 @@ h4 {
 
 /* Media Queries */
 
+@media (min-width: 2100px) {
+  #carouselExampleIndicators {
+    width: 34%;
+    margin-left: 33%;
+  }
+  .card-img-top {
+    height: 14rem;
+  }
+  .w-100 {
+    height: 20rem;
+  }
+}
+
 @media (max-width: 1200px) {
   body {
     background-size: auto;
@@ -390,7 +405,7 @@ h4 {
 
 @media (max-width: 800px) {
   body {
-    background-size: auto;
+    background-size: cover;
   }
   .project-cards:hover {
     transform: none;
@@ -418,7 +433,7 @@ h4 {
     float: none;
   }
   .navbar-toggler {
-    display: inline-block; 
+    display: inline-block;
   }
   #main-navigation {
     display: none !important;
