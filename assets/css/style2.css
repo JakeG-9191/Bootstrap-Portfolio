@@ -1,27 +1,6 @@
 /* font-family: 'Calistoga', cursive;
 font-family: 'Public Sans', sans-serif; */
 
-@keyframes intro {
-  0% {
-    opacity: 0;
-  }
-  10% {
-    opacity: 0.1;
-  }
-  30% {
-    opacity: 0.3;
-  }
-  60% {
-    opacity: 0.6;
-  }
-  90% {
-    opacity: 0.9;
-  }
-  100% {
-    opacity: 0.92;
-  }
-}
-
 @keyframes flip {
   0% {
     transform: rotateY(0);
@@ -36,7 +15,7 @@ font-family: 'Public Sans', sans-serif; */
 
 @keyframes picture {
   0% {
-    border-color: maroon;
+    border-color: #062256;
     transform: scale(1);
   }
   50% {
@@ -44,8 +23,29 @@ font-family: 'Public Sans', sans-serif; */
     transform: scale(1.4);
   }
   100% {
-    border-color: maroon;
+    border-color: #062256;
     transform: scale(1);
+  }
+}
+
+@keyframes newBackdrop {
+  0% {
+    background: url('https://wallpaperplay.com/walls/full/2/f/e/15814.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  50% {
+    background: url('https://i.pinimg.com/originals/0f/9c/1c/0f9c1c9efe78cbdba6e7e0fbfd2d864b.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  100% {
+    background: url('https://wallpaperplay.com/walls/full/2/f/e/15814.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
   }
 }
 
@@ -54,7 +54,6 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url('https://besthqwallpapers.com/img/original/94913/black-stylish-background-black-geometric-background-black-abstraction-black-and-red-background.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -62,7 +61,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   width: 100%;
-  animation: intro 6s linear;
+  animation: newBackdrop 20s infinite;
 }
 
 * {
@@ -108,7 +107,7 @@ body {
 }
 
 .nav-bar:hover {
-  background: maroon;
+  background: #062256;
 }
 
 .w-100 {
@@ -142,7 +141,7 @@ footer {
   font-size: 12px;
   color: white;
   text-align: center;
-  background: maroon;
+  background: #062256;
   border-top: 5px solid black;
   height: 50px;
   margin-top: 2rem;
@@ -177,7 +176,7 @@ a {
   border-radius: 50%;
   border-style: solid;
   border-width: 5px;
-  border-color: maroon;
+  border-color: #062256;
   margin-bottom: 3rem;
 }
 
@@ -208,7 +207,7 @@ a {
   margin-top: 7rem;
   text-align: center;
   margin-bottom: 7rem;
-  background: maroon;
+  background: #062256;
   color: white;
   border-style: solid;
   border-color: black;
@@ -224,7 +223,7 @@ a {
   margin-top: 7rem;
   text-align: center;
   margin-bottom: 5rem;
-  background: maroon;
+  background: #062256;
   color: white;
   border-style: solid;
   border-color: black;
@@ -248,7 +247,7 @@ a {
   text-align: center;
   margin-left: 6%;
   border-style: solid;
-  border-color: maroon;
+  border-color: #062256;
   border-width: 5px;
 }
 
@@ -258,7 +257,7 @@ a {
 }
 
 .list-group {
-  background: maroon;
+  background: #062256;
 }
 
 .btn-dark {
@@ -276,7 +275,7 @@ a {
   padding: 1rem;
   color: black;
   border-style: solid;
-  border-color: maroon;
+  border-color: #062256;
   border-width: 5px;
 }
 
@@ -291,7 +290,7 @@ a {
 #contact-information {
   padding: 2rem;
   text-align: center;
-  background: maroon;
+  background: #062256;
   color: white;
   padding-bottom: 5rem;
   border-style: solid;
@@ -366,7 +365,7 @@ h4 {
 }
 
 .navbar-light .navbar-toggler {
-  background-color: maroon;
+  background-color: #062256;
   margin-bottom: 1rem;
   border-radius: 1px;
   border-color: white;
