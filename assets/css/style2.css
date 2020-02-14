@@ -18,9 +18,15 @@ font-family: 'Public Sans', sans-serif; */
     border-color: #062256;
     transform: scale(1);
   }
+  25% {
+    transform: scale(1.2);
+  }
   50% {
     border-width: 0;
     transform: scale(1.4);
+  }
+  75% {
+    transform: scale(1.2);
   }
   100% {
     border-color: #062256;
