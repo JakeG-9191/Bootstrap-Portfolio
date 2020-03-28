@@ -108,7 +108,7 @@ body {
 
 .nav-bar {
   float: left;
-  padding: 1rem;
+  padding: 1rem 1rem 1rem 0;
   margin-bottom: 0;
 }
 
@@ -128,11 +128,9 @@ p {
 }
 
 #main-container {
-  padding-bottom: 2rem;
   flex: 1;
   border-radius: 18px;
   margin-top: 2rem;
-  margin-bottom: 1rem;
 }
 
 .container {
@@ -378,10 +376,18 @@ h4 {
   margin-bottom: 1rem;
   border-radius: 1px;
   border-color: whitesmoke;
+  margin-top: 1rem !important;
 }
 
 .bg-dark {
   background-color: black !important;
+}
+
+.twitter-timeline {
+  margin-left: 33% !important;
+  margin-top: 2rem !important;
+  width: 34% !important;
+  border-radius: 18px;
 }
 
 /* Media Queries */
@@ -403,6 +409,10 @@ h4 {
   body {
     background-size: auto;
   }
+  .twitter-timeline {
+    margin-left: 20% !important;
+    width: 60% !important;
+  }
 }
 
 @media (max-width: 930px) {
@@ -420,9 +430,9 @@ h4 {
     z-index: 10;
   }
   .project-cards {
-    margin-left: 0;
+    margin-left: 5%;
     margin-top: 5%;
-    min-width: 100%;
+    min-width: 90%;
   }
   .tech-pics {
     margin-top: 1rem;
@@ -446,6 +456,10 @@ h4 {
   #main-navigation {
     display: none !important;
   }
+  .twitter-timeline {
+    margin-left: 10% !important;
+    width: 80% !important;
+  }
 }
 
 @media (max-width: 480px) {
@@ -453,14 +467,14 @@ h4 {
     background-size: cover;
   }
   .project-cards {
-    margin-left: 0;
+    margin-left: 5%;
     margin-top: 5%;
-    min-width: 100%;
+    min-width: 90%;
     opacity: 1;
   }
   #carouselExampleIndicators {
-    width: 100%;
-    margin-left: 0;
+    width: 90%;
+    margin-left: 5%;
     opacity: 1;
   }
   #contact-images-linked {
@@ -490,25 +504,22 @@ h4 {
     background-size: cover;
   }
   .project-cards {
-    margin-left: 0;
-    min-width: 100%;
     margin-top: 5%;
     opacity: 1;
   }
   #carouselExampleIndicators {
     opacity: 1;
-    width: 100%;
-    margin-left: 0;
+    width: 90%;
   }
   #contact-images-linked {
-    height: 75px;
+    height: 90px;
     margin-right: 10%;
     width: 40%;
     margin-left: 10%;
     margin-bottom: 1rem;
   }
   #contact-images {
-    height: 60px;
+    height: 75px;
     margin-right: 10%;
     width: 35%;
     margin-left: 10%;
