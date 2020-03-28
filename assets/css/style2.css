@@ -108,7 +108,7 @@ body {
 
 .nav-bar {
   float: left;
-  padding: 1rem 1rem 1rem 0;
+  padding: 1rem;
   margin-bottom: 0;
 }
 
@@ -419,6 +419,9 @@ h4 {
   .navbar {
     padding-top: 1rem;
   }
+  .nav-bar {
+    padding: 1rem 1rem 1rem 0;
+  }
 }
 
 @media (max-width: 800px) {
@@ -447,6 +450,9 @@ h4 {
 }
 
 @media (max-width: 585px) {
+  .project-cards:hover {
+    transform: none;
+  }
   .nav-bar {
     float: none;
   }
