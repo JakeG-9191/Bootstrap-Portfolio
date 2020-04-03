@@ -407,7 +407,7 @@ loadMySkills = () => {
     <h5>Unit & Integration Testing</h5>
     <h5>Cloud Services (AWS)</h5>
   </div>`);
-  $('.contact-me').append(textInfo);
+  $('#full-width-bottom').append(textInfo);
   setTimeout(loadMyContact, 1000);
 };
 
