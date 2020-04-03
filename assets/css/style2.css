@@ -19,13 +19,16 @@ font-family: 'Public Sans', sans-serif; */
 
 @keyframes picture {
   0% {
-    border-color: whitesmoke;
+    border-color: #062256;
   }
-  50% {
+  33% {
+    border-color: #02d6db;
+  }
+  66% {
     border-color: black;
   }
   100% {
-    border-color: whitesmoke;
+    border-color: #062256;
   }
 }
 
@@ -54,7 +57,7 @@ font-family: 'Public Sans', sans-serif; */
   0% {
     opacity: 0;
   }
-  70% {
+  80% {
     opacity: 0;
   }
   100% {
@@ -213,7 +216,7 @@ a {
   height: 100px;
   width: 100px;
   margin-right: 2rem;
-  animation: fadeIn 2s linear;
+  animation: fadeIn 1s linear;
 }
 
 .intro-me {
@@ -257,7 +260,7 @@ a {
 }
 
 .tech-pics:hover {
-  animation: flip 2s;
+  animation: flip 1s;
 }
 
 .project-cards {
@@ -384,6 +387,11 @@ h4 {
 
 .navbar-toggler {
   display: none;
+}
+
+.full-width {
+  width: 50%;
+  margin-left: 25%;
 }
 
 .navbar-light .navbar-toggler {
