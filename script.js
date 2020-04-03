@@ -38,7 +38,6 @@ setThis = () => {
         <img class="tech-pics" src="assets/images/tech/AWS-logo.png" />`
   );
   $('.technology-me').append(thisInfo);
-  setTimeout(loadMyBackground, 1000);
 };
 
 loadMyBackground = () => {
@@ -51,7 +50,6 @@ loadMyBackground = () => {
   curated list of my work below, along with some of my most recent
   projects.`);
   $('#full-width-top').append(textInfo);
-  setTimeout(loadMyHighlights, 1000);
 };
 
 loadMyHighlights = () => {
@@ -180,17 +178,17 @@ loadMyHighlights = () => {
 </div>
 </div>`);
   $('.projects-go-here').append(textInfo);
-  setTimeout(loadMyProjects, 1000);
 };
 
 loadMyProjects = () => {
   let textInfo = $('<div>');
   textInfo.append(
-    `          <div
-  id="carouselExampleIndicators"
-  class="carousel slide col-12"
-  data-ride="carousel"
->
+    `
+    <div
+    id="carouselExampleIndicators"
+    class="carousel slide col-12"
+    data-ride="carousel"
+    >
   <ol class="carousel-indicators">
     <li
       data-target="#carouselExampleIndicators"
@@ -381,7 +379,6 @@ loadMyProjects = () => {
 </div>`
   );
   $('.about-me').append(textInfo);
-  setTimeout(loadMySkills, 1000);
 };
 
 loadMySkills = () => {
@@ -408,7 +405,6 @@ loadMySkills = () => {
     <h5>Cloud Services (AWS)</h5>
   </div>`);
   $('#full-width-bottom').append(textInfo);
-  setTimeout(loadMyContact, 1000);
 };
 
 loadMyContact = () => {
@@ -444,7 +440,6 @@ loadMyContact = () => {
 /></a>
 `);
   $('#full-width-bottom').append(textInfo);
-  setTimeout(loadMyTwitter, 1000);
 };
 
 loadMyTwitter = () => {
@@ -465,6 +460,28 @@ loadMyTwitter = () => {
   `);
 };
 
+$(document).mouseover(function() {
+  $('#full-width-top').text('');
+  loadMyBackground();
+  if (scrollY > 200) {
+    $('.projects-go-here').text('');
+    loadMyHighlights();
+  }
+  if (scrollY > 400) {
+    $('.about-me').text('');
+    loadMyProjects();
+  }
+  console.log(scrollY);
+});
+
+const siteSetTime = 6000;
+
 setTimeout(typeWriter, 1000);
 setTimeout(typeWriterTwo, 2000);
-setTimeout(setThis, 6000);
+setTimeout(setThis, siteSetTime);
+// setTimeout(loadMyBackground, siteSetTime);
+// setTimeout(loadMyHighlights, siteSetTime);
+// setTimeout(loadMyProjects, siteSetTime);
+// setTimeout(loadMySkills, siteSetTime);
+// setTimeout(loadMyContact, siteSetTime);
+// setTimeout(loadMyTwitter, siteSetTime);

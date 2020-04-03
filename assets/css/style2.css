@@ -394,6 +394,15 @@ h4 {
   margin-left: 25%;
 }
 
+#full-width-bottom {
+  width: 80%;
+  margin-left: 10%;
+}
+
+#full-width-top {
+  animation: fadeIn 3s linear;
+}
+
 .navbar-light .navbar-toggler {
   background-color: #062256;
   margin-bottom: 1rem;
