@@ -4,11 +4,12 @@ font-family: 'Public Sans', sans-serif; */
 @keyframes flip {
   0% {
     transform: rotate(90deg);
+    opacity: 1;
   }
-  50% {
+  33% {
     transform: rotateY(180deg);
   }
-  75% {
+  66% {
     transform: rotate(270deg);
   }
   100% {
@@ -18,22 +19,13 @@ font-family: 'Public Sans', sans-serif; */
 
 @keyframes picture {
   0% {
-    border-color: #062256;
-    transform: rotate(0deg);
-  }
-  25% {
-    transform: rotate(90deg);
+    border-color: whitesmoke;
   }
   50% {
-    border-width: 0;
-    transform: rotate(180deg);
-  }
-  75% {
-    transform: rotate(270deg);
+    border-color: black;
   }
   100% {
-    border-color: #062256;
-    transform: rotate(360deg);
+    border-color: whitesmoke;
   }
 }
 
@@ -55,6 +47,18 @@ font-family: 'Public Sans', sans-serif; */
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 
@@ -188,10 +192,17 @@ a {
 }
 
 #profile-picture:hover {
-  animation: picture 2s linear;
+  animation: picture 2s linear infinite;
 }
 
 #profile-name {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 6rem;
+  color: whitesmoke;
+}
+
+#profile-name-more {
   width: 100%;
   text-align: center;
   margin-bottom: 6rem;
@@ -202,6 +213,7 @@ a {
   height: 100px;
   width: 100px;
   margin-right: 2rem;
+  animation: fadeIn 2s linear;
 }
 
 .intro-me {
@@ -245,7 +257,7 @@ a {
 }
 
 .tech-pics:hover {
-  animation: flip 3s;
+  animation: flip 2s;
 }
 
 .project-cards {
