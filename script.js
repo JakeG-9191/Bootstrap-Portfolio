@@ -382,9 +382,7 @@ loadMyProjects = () => {
 };
 
 loadMySkills = () => {
-  let textInfo = $('<div>')
-    .addClass('row')
-    .attr('id', 'about-me-2');
+  let textInfo = $('<div>').addClass('row').attr('id', 'about-me-2');
   textInfo.append(`            
     <div class="col-md-5 talents">
     <h4>Front End</h4>
@@ -460,28 +458,29 @@ loadMyTwitter = () => {
   `);
 };
 
-$(document).mouseover(function() {
-  $('#full-width-top').text('');
-  loadMyBackground();
-  if (scrollY > 200) {
-    $('.projects-go-here').text('');
-    loadMyHighlights();
-  }
-  if (scrollY > 400) {
-    $('.about-me').text('');
-    loadMyProjects();
-  }
-  console.log(scrollY);
-});
+loadMyFooter = () => {
+  let textInfo = $('<div>').addClass('my-footer container');
+  textInfo.append(
+    `
+    <div class="row">
+      <div class="col-md-12 col-12">
+        Copyright &copy (2020)
+      </div>
+    </div>
+    `
+  );
+  $('#footer-location').append(textInfo);
+};
 
-const siteSetTime = 6000;
+const siteSetTime = 7000;
 
 setTimeout(typeWriter, 1000);
 setTimeout(typeWriterTwo, 2000);
-setTimeout(setThis, siteSetTime);
-// setTimeout(loadMyBackground, siteSetTime);
-// setTimeout(loadMyHighlights, siteSetTime);
-// setTimeout(loadMyProjects, siteSetTime);
-// setTimeout(loadMySkills, siteSetTime);
-// setTimeout(loadMyContact, siteSetTime);
-// setTimeout(loadMyTwitter, siteSetTime);
+setTimeout(setThis, 5000);
+setTimeout(loadMyBackground, siteSetTime);
+setTimeout(loadMyHighlights, siteSetTime);
+setTimeout(loadMyProjects, siteSetTime);
+setTimeout(loadMySkills, siteSetTime);
+setTimeout(loadMyContact, siteSetTime);
+setTimeout(loadMyTwitter, siteSetTime);
+setTimeout(loadMyFooter, siteSetTime);
