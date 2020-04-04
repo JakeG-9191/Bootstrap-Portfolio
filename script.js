@@ -184,46 +184,14 @@ loadMyProjects = () => {
   let textInfo = $('<div>');
   textInfo.append(
     `
-    <div
-    id="carouselExampleIndicators"
-    class="carousel slide col-12"
-    data-ride="carousel"
-    >
-  <ol class="carousel-indicators">
-    <li
-      data-target="#carouselExampleIndicators"
-      data-slide-to="0"
-      class="active"
-    ></li>
-    <li
-      data-target="#carouselExampleIndicators"
-      data-slide-to="1"
-    ></li>
-    <li
-      data-target="#carouselExampleIndicators"
-      data-slide-to="2"
-    ></li>
-    <li
-      data-target="#carouselExampleIndicators"
-      data-slide-to="3"
-    ></li>
-    <li
-      data-target="#carouselExampleIndicators"
-      data-slide-to="4"
-    ></li>
-    <li
-      data-target="#carouselExampleIndicators"
-      data-slide-to="5"
-    ></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      Action Giphy App
+    <div class="card-bottom card">
       <img
         src="assets/images/john-wick-club-scene-screengrab.jpg"
-        class="d-block w-100"
+        class="card-img-top"
         alt="Action Giphy App"
       />
+      <div class='card-body'>
+      <h5 class='card-title'>Action Giphy App</h5>
       <a
         target="_blank"
         href="https://jakeg-9191.github.io/Giphy-API/"
@@ -238,12 +206,13 @@ loadMyProjects = () => {
           <i class="material-icons spinning">developer_mode</i>
         </button></a
       >
+      </div>
     </div>
-    <div class="carousel-item">
+    <div class="card-bottom card">
       Washington Post Scraper
       <img
         src="assets/images/WashingtonPost.JPG"
-        class="d-block w-100"
+        class="card-img-top"
         alt="Washington Post Scraper"
       />
       <a
@@ -261,11 +230,11 @@ loadMyProjects = () => {
         </button></a
       >
     </div>
-    <div class="carousel-item">
+    <div class="card-bottom card">
       Bearfoot Voyager
       <img
         src="assets/images/Bearfoot Voyager.JPG"
-        class="d-block w-100"
+        class="card-img-top"
         alt="Bearfoot Voyager"
       />
       <a
@@ -283,11 +252,11 @@ loadMyProjects = () => {
         </button></a
       >
     </div>
-    <div class="carousel-item">
+    <div class="card-bottom card">
       DevConnector
       <img
         src="assets/images/DevConnector.JPG"
-        class="d-block w-100"
+        class="card-img-top"
         alt="Burger Madness"
       />
       <a
@@ -305,11 +274,11 @@ loadMyProjects = () => {
         </button></a
       >
     </div>
-    <div class="carousel-item">
+    <div class="card-bottom card">
       Crystal Collector
       <img
         src="assets/images/Purple Crystal.jpg"
-        class="d-block w-100"
+        class="card-img-top"
         alt="Crystal Collector"
       />
       <a
@@ -327,11 +296,11 @@ loadMyProjects = () => {
         </button></a
       >
     </div>
-    <div class="carousel-item">
+    <div class="card-bottom card">
       MySQL Bamazon Store (CLI)
       <img
         src="assets/images/managerLowInventory.JPG"
-        class="d-block w-100"
+        class="card-img-top"
         alt="Bamazon Application"
       />
       <a target="_blank" href=""
@@ -351,32 +320,7 @@ loadMyProjects = () => {
         </button></a
       >
     </div>
-  </div>
-  <a
-    class="carousel-control-prev"
-    href="#carouselExampleIndicators"
-    role="button"
-    data-slide="prev"
-  >
-    <span
-      class="carousel-control-prev-icon"
-      aria-hidden="true"
-    ></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a
-    class="carousel-control-next"
-    href="#carouselExampleIndicators"
-    role="button"
-    data-slide="next"
-  >
-    <span
-      class="carousel-control-next-icon"
-      aria-hidden="true"
-    ></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>`
+`
   );
   $('.about-me').append(textInfo);
 };

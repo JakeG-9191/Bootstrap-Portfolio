@@ -388,7 +388,7 @@ h1 {
   padding: 1rem;
   border-color: black;
   border-width: 5px;
-  border-radius: 18px;
+  border-radius: 15%;
   margin-left: 6%;
   background: black;
 }
@@ -423,7 +423,10 @@ h1 {
   margin-left: 33% !important;
   margin-top: 2rem !important;
   width: 34% !important;
-  border-radius: 18px;
+  border-radius: 18px !important;
+  border-width: 5px !important;
+  border-style: solid !important;
+  border-color: black !important;
 }
 
 .talents h5:hover {
@@ -443,6 +446,11 @@ h1 {
 
 .spinning {
   padding: 0rem;
+}
+
+.card-bottom {
+  width: 18rem;
+  background-color: whitesmoke;
 }
 
 /* Media Queries */
