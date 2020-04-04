@@ -476,7 +476,7 @@ const siteSetTime = 7000;
 
 setTimeout(typeWriter, 1000);
 setTimeout(typeWriterTwo, 2000);
-setTimeout(setThis, 5000);
+setTimeout(setThis, 6000);
 setTimeout(loadMyBackground, siteSetTime);
 setTimeout(loadMyHighlights, siteSetTime);
 setTimeout(loadMyProjects, siteSetTime);
