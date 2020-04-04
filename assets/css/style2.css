@@ -280,6 +280,7 @@ a {
   transform: scale(1.1);
   z-index: 10;
   opacity: 1;
+  -webkit-transition: all 0.5s ease-in-out;
 }
 
 .list-group {
@@ -352,6 +353,7 @@ a {
 #contact-images:hover {
   transform: scale(1.4);
   z-index: 10;
+  -webkit-transition: all 0.5s ease-in-out;
 }
 
 #contact-images-linked {
@@ -362,6 +364,7 @@ a {
 #contact-images-linked:hover {
   transform: scale(1.4);
   z-index: 10;
+  -webkit-transition: all 0.5s ease-in-out;
 }
 
 #contact-me {
@@ -432,6 +435,11 @@ h1 {
 .talents h5:hover {
   transform: scale(1.4);
   text-decoration: underline;
+  -webkit-transition: all 0.4s ease-in-out;
+}
+
+.projects-go-here {
+  margin-bottom: 7rem;
 }
 
 .material-icons {
@@ -449,8 +457,32 @@ h1 {
 }
 
 .card-bottom {
-  width: 18rem;
   background-color: whitesmoke;
+  padding: 1rem;
+  margin-left: 3rem;
+  border-radius: 18px;
+  margin-top: 7rem;
+  border-style: solid;
+  border-color: red;
+  border-width: 5px;
+}
+
+.other-project-images {
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all 0.8s ease-in-out;
+  margin-bottom: 1rem;
+  border-radius: 18px;
+  border-style: solid;
+  border-color: gray;
+  margin-left: 1%;
+}
+
+.other-project-images:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+  border-color: #062256;
 }
 
 /* Media Queries */
@@ -485,6 +517,9 @@ h1 {
   .nav-bar {
     padding: 1rem 1rem 1rem 0;
   }
+  .other-project-images {
+    margin-left: 5%;
+  }
 }
 
 @media (max-width: 800px) {
@@ -506,6 +541,9 @@ h1 {
   }
   .tech-pics {
     margin-top: 1rem;
+  }
+  .other-project-images {
+    margin-left: 17%;
   }
 }
 
