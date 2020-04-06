@@ -55,7 +55,7 @@ loadMyBackground = () => {
 loadMyHighlights = () => {
   let textInfo = $('<div>').addClass('row');
   textInfo.append(`            
-  <div class="card project-cards col-md-3 col-11" id="project-zone">
+  <div class="card project-cards col-lg-3 col-md-11 col-11" id="project-zone">
   <img
     src="assets/images/Solar 1 resized.png"
     class="card-img-top"
@@ -96,7 +96,7 @@ loadMyHighlights = () => {
     >
   </div>
 </div>
-<div class="card project-cards col-md-3 col-11">
+<div class="card project-cards col-lg-3 col-md-11 col-11">
   <img
     src="assets/images/ReignOfReact.JPG"
     class="card-img-top"
@@ -136,7 +136,7 @@ loadMyHighlights = () => {
     >
   </div>
 </div>
-<div class="card project-cards col-md-3 col-11">
+<div class="card project-cards col-lg-3 col-md-11 col-11">
   <img
     src="assets/images/COVID19.PNG"
     class="card-img-top"
@@ -182,161 +182,13 @@ loadMyHighlights = () => {
 
 loadMyProjects = () => {
   let textInfo = $('<div>').addClass('row');
-  //   textInfo.append(
-  //     `
-  //     <div class="card-bottom card col-11 col-md-2">
-  //       <img
-  //         src="assets/images/john-wick-club-scene-screengrab.jpg"
-  //         class="card-img-top"
-  //         alt="Action Giphy App"
-  //       />
-  //       <div class='card-body'>
-  //       <h5 class='card-title'>Action Giphy App</h5>
-  //       <a
-  //         target="_blank"
-  //         href="https://jakeg-9191.github.io/Giphy-API/"
-  //         ><button class="btn-dark btn-sm project-button">
-  //           <i class="material-icons spinning">launch</i>
-  //         </button></a
-  //       >
-  //       <a
-  //         target="_blank"
-  //         href="https://github.com/JakeG-9191/Giphy-API"
-  //         ><button class="btn-dark btn-sm project-button">
-  //           <i class="material-icons spinning">developer_mode</i>
-  //         </button></a
-  //       >
-  //       </div>
-  //     </div>
-  //     <div class="card-bottom card col-11 col-md-2">
-  //       Washington Post Scraper
-  //       <img
-  //         src="assets/images/WashingtonPost.JPG"
-  //         class="card-img-top"
-  //         alt="Washington Post Scraper"
-  //       />
-  //       <a
-  //         target="_blank"
-  //         href="https://chilling-crypt-08855.herokuapp.com/"
-  //         ><button class="btn-dark btn-sm project-button">
-  //           <i class="material-icons spinning">launch</i>
-  //         </button></a
-  //       >
-  //       <a
-  //         target="_blank"
-  //         href="https://github.com/JakeG-9191/Mongo-Search"
-  //         ><button class="btn-dark btn-sm project-button">
-  //           <i class="material-icons spinning">developer_mode</i>
-  //         </button></a
-  //       >
-  //     </div>
-  //     <div class="card-bottom card col-11 col-md-2">
-  //       Bearfoot Voyager
-  //       <img
-  //         src="assets/images/Bearfoot Voyager.JPG"
-  //         class="card-img-top"
-  //         alt="Bearfoot Voyager"
-  //       />
-  //       <a
-  //         target="_blank"
-  //         href="https://jakeg-9191.github.io/Barefoot-Voyager/"
-  //         ><button class="btn-dark btn-sm project-button">
-  //           <i class="material-icons spinning">launch</i>
-  //         </button></a
-  //       >
-  //       <a
-  //         target="_blank"
-  //         href="https://github.com/dlafrance99/Project-one-take-two"
-  //         ><button class="btn-dark btn-sm project-button">
-  //           <i class="material-icons spinning">developer_mode</i>
-  //         </button></a
-  //       >
-  //     </div>
-  //     <div class="card-bottom card col-11 col-md-2">
-  //       DevConnector
-  //       <img
-  //         src="assets/images/DevConnector.JPG"
-  //         class="card-img-top"
-  //         alt="Burger Madness"
-  //       />
-  //       <a
-  //         target="_blank"
-  //         href="https://hidden-falls-47750.herokuapp.com/"
-  //         ><button class="btn-dark btn-sm project-button">
-  //           <i class="material-icons spinning">launch</i>
-  //         </button></a
-  //       >
-  //       <a
-  //         target="_blank"
-  //         href="https://github.com/JakeG-9191/Denver-Dev-Connect"
-  //         ><button class="btn-dark btn-sm project-button">
-  //           <i class="material-icons spinning">developer_mode</i>
-  //         </button></a
-  //       >
-  //     </div>
-  //     <div class="card-bottom card col-11 col-md-2">
-  //       Crystal Collector
-  //       <img
-  //         src="assets/images/Purple Crystal.jpg"
-  //         class="card-img-top"
-  //         alt="Crystal Collector"
-  //       />
-  //       <a
-  //         target="_blank"
-  //         href="https://jakeg-9191.github.io/Unit-4-Game/"
-  //         ><button class="btn-dark btn-sm project-button">
-  //           <i class="material-icons spinning">launch</i>
-  //         </button></a
-  //       >
-  //       <a
-  //         target="_blank"
-  //         href="https://github.com/JakeG-9191/Unit-4-Game"
-  //         ><button class="btn-dark btn-sm project-button">
-  //           <i class="material-icons spinning">developer_mode</i>
-  //         </button></a
-  //       >
-  //     </div>
-  //     <div class="card-bottom card col-11 col-md-2">
-  //       MySQL Bamazon Store (CLI)
-  //       <img
-  //         src="assets/images/managerLowInventory.JPG"
-  //         class="card-img-top"
-  //         alt="Bamazon Application"
-  //       />
-  //       <a target="_blank" href=""
-  //         ><button
-  //           disabled
-  //           style="color: gray"
-  //           class="btn-dark btn-sm project-button"
-  //         >
-  //           <i class="material-icons spinning">launch</i>
-  //         </button></a
-  //       >
-  //       <a
-  //         target="_blank"
-  //         href="https://github.com/JakeG-9191/Bamazon-Node-App"
-  //         ><button class="btn-dark btn-sm project-button">
-  //           <i class="material-icons spinning">developer_mode</i>
-  //         </button></a
-  //       >
-  //     </div>
-  // `
-  //   );
-
-  //////
-
-  let changeWidth;
   let changeHeight;
 
   if (window.screen.width > 765) {
-    changeWidth = parseInt(window.screen.width / 3) - 30;
     changeHeight = parseInt(window.screen.height / 2);
   } else {
-    changeWidth = parseInt(window.screen.width / 1.5);
-    changeHeight = parseInt(window.screen.height / 1.5);
+    changeHeight = parseInt(window.screen.height / 2.5);
   }
-
-  console.log(changeWidth);
 
   textInfo.append(
     `
@@ -346,7 +198,7 @@ loadMyProjects = () => {
     href="https://jakeg-9191.github.io/Giphy-API/"
     >
     <img
-    style='width: ${changeWidth}px; height: ${changeHeight}px;'
+    style='width: 100%; height: ${changeHeight}px;'
     src="assets/images/john-wick-club-scene-screengrab.jpg"
     class="other-project-images"
     alt="Action Giphy App"
@@ -360,7 +212,7 @@ loadMyProjects = () => {
     href="https://chilling-crypt-08855.herokuapp.com/"
     >
     <img
-    style='width: ${changeWidth}px; height: ${changeHeight}px;'
+    style='width: 100%; height: ${changeHeight}px;'
     src="assets/images/WashingtonPost.JPG"
     class="other-project-images"
     alt="Washington Post Scraper"
@@ -374,7 +226,7 @@ loadMyProjects = () => {
     href="https://jakeg-9191.github.io/Barefoot-Voyager/"
     >
     <img
-    style='width: ${changeWidth}px; height: ${changeHeight}px;'
+    style='width: 100%; height: ${changeHeight}px;'
     src="assets/images/Bearfoot Voyager.JPG"
     class="other-project-images"
     alt="Bearfoot Voyager"
@@ -388,7 +240,7 @@ loadMyProjects = () => {
     href="https://hidden-falls-47750.herokuapp.com/"
     >
     <img
-    style='width: ${changeWidth}px; height: ${changeHeight}px;'
+    style='width: 100%; height: ${changeHeight}px;'
     src="assets/images/DevConnector.JPG"
     class="other-project-images"
     alt="DevConnector Application"
@@ -402,7 +254,7 @@ loadMyProjects = () => {
     href="https://jakeg-9191.github.io/Unit-4-Game/"
     >
     <img
-    style='width: ${changeWidth}px; height: ${changeHeight}px;'
+    style='width: 100%; height: ${changeHeight}px;'
     src="assets/images/Purple Crystal.jpg"
     class="other-project-images"
     alt="Crystal Collector"
@@ -416,7 +268,7 @@ loadMyProjects = () => {
     href="https://github.com/JakeG-9191/Bamazon-Node-App"
     >
     <img
-    style='width: ${changeWidth}px; height: ${changeHeight}px;'
+    style='width: 100%; height: ${changeHeight}px;'
     src="assets/images/managerLowInventory.JPG"
     class="other-project-images"
     alt="Bamazon Application"
@@ -435,7 +287,8 @@ loadMySkills = () => {
     <h4>Front End</h4>
     <h5>HTML5</h5>
     <h5>CSS3</h5>
-    <h5>Client JavaScript</h5>
+    <h5>Client JavaScript / ES6+</h5>
+    <h5>jQuery</h5>
     <h5>React</h5>
     <h5>Bootstrap</h5>
   </div>
