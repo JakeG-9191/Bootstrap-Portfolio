@@ -55,7 +55,7 @@ loadMyBackground = () => {
 loadMyHighlights = () => {
   let textInfo = $('<div>').addClass('row');
   textInfo.append(`            
-  <div class="card project-cards col-lg-3 col-md-11 col-11" id="project-zone">
+  <div class="card project-cards col-lg-4 col-md-11 col-11" id="project-zone">
   <img
     src="assets/images/Solar 1 resized.png"
     class="card-img-top"
@@ -96,7 +96,7 @@ loadMyHighlights = () => {
     >
   </div>
 </div>
-<div class="card project-cards col-lg-3 col-md-11 col-11">
+<div class="card project-cards col-lg-4 col-md-11 col-11">
   <img
     src="assets/images/ReignOfReact.JPG"
     class="card-img-top"
@@ -108,7 +108,7 @@ loadMyHighlights = () => {
       This full-stack MERN application is an RPG game with a card
       collection and party creation aspect and features persistent
       data so players can continue returning and challening more
-      difficult enemies, all while collecting more powerful allies.
+      difficult enemies, all while becoming more powerful as players and gaining better party members.
     </p>
   </div>
   <div class="list-group list-group-flush">
@@ -136,16 +136,16 @@ loadMyHighlights = () => {
     >
   </div>
 </div>
-<div class="card project-cards col-lg-3 col-md-11 col-11">
+<div class="card project-cards col-lg-4 col-md-11 col-11">
   <img
     src="assets/images/COVID19.PNG"
     class="card-img-top"
     alt="Friend Finder"
   />
   <div class="card-body">
-    <h5 class="card-title">COVID-19 Quick Information</h5>
+    <h5 class="card-title">COVID-19 Info</h5>
     <p class="card-text">
-      This is a simple progressive web application that provides
+      This is a progressive web application that provides
       users with information about the novel coronavirus and the
       disease it causes, COVID-19. Users can select from numerous
       countries to get specific data or global data, this selection
@@ -154,7 +154,7 @@ loadMyHighlights = () => {
   </div>
   <div class="list-group list-group-flush">
     <p class="list-group-item">
-      Bootstrap | jQuery | AJAX | 3rd Party API
+      Bootstrap | jQuery | AJAX Methods | REST API
     </p>
   </div>
   <div class="card-body">
@@ -281,7 +281,9 @@ loadMyProjects = () => {
 };
 
 loadMySkills = () => {
-  let textInfo = $('<div>').addClass('row').attr('id', 'about-me-2');
+  let textInfo = $('<div>')
+    .addClass('row')
+    .attr('id', 'about-me-2');
   textInfo.append(`            
     <div class="col-md-5 talents">
     <h4>Front End</h4>
