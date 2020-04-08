@@ -221,59 +221,59 @@ loadMyProjects = () => {
     </div>
 
     <div class='col-12 col-md-4'>
-    <a
-    target="_blank"
-    href="https://jakeg-9191.github.io/Barefoot-Voyager/"
-    >
     <img
     style='width: 100%; height: ${changeHeight}px;'
     src="assets/images/Bearfoot Voyager.JPG"
     class="other-project-images"
     alt="Bearfoot Voyager"
     />
-    </a>
+    <a
+    class='button buttonProject'
+    target="_blank"
+    href="https://jakeg-9191.github.io/Barefoot-Voyager/"
+    ><i class="material-icons bottom-icons">launch</i></a>
     </div>
 
     <div class='col-12 col-md-4'>
-    <a
-    target="_blank"
-    href="https://hidden-falls-47750.herokuapp.com/"
-    >
     <img
     style='width: 100%; height: ${changeHeight}px;'
     src="assets/images/DevConnector.JPG"
     class="other-project-images"
     alt="DevConnector Application"
     />
-    </a>
+    <a
+    class='button buttonProject'
+    target="_blank"
+    href="https://hidden-falls-47750.herokuapp.com/"
+    ><i class="material-icons bottom-icons">launch</i></a>
     </div>
 
     <div class='col-12 col-md-4'>
-    <a
-    target="_blank"
-    href="https://jakeg-9191.github.io/Unit-4-Game/"
-    >
     <img
     style='width: 100%; height: ${changeHeight}px;'
     src="assets/images/Purple Crystal.jpg"
     class="other-project-images"
     alt="Crystal Collector"
     />
-    </a>
+    <a
+    class='button buttonProject'
+    target="_blank"
+    href="https://jakeg-9191.github.io/Unit-4-Game/"
+    ><i class="material-icons bottom-icons">launch</i></a>
     </div>
 
     <div class='col-12 col-md-4'>
-    <a
-    target="_blank"
-    href="https://github.com/JakeG-9191/Bamazon-Node-App"
-    >
     <img
     style='width: 100%; height: ${changeHeight}px;'
     src="assets/images/managerLowInventory.JPG"
     class="other-project-images"
     alt="Bamazon Application"
     />
-    </a>
+    <a
+    class='button buttonProject'
+    target="_blank"
+    href="https://github.com/JakeG-9191/Bamazon-Node-App"
+    ><i class="material-icons bottom-icons">launch</i></a>
     </div>
 `
   );
