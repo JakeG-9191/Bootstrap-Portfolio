@@ -190,20 +190,6 @@ loadMyProjects = () => {
     changeHeight = parseInt(window.screen.height / 2.5);
   }
 
-  // <div class='col-12 col-md-4'>
-  // <a
-  // target="_blank"
-  // href="https://jakeg-9191.github.io/Giphy-API/"
-  // >
-  // <img
-  // style='width: 100%; height: ${changeHeight}px;'
-  // src="assets/images/john-wick-club-scene-screengrab.jpg"
-  // class="other-project-images"
-  // alt="Action Giphy App"
-  // />
-  // </a>
-  // </div>
-
   textInfo.append(
     `
     <div class='col-12 col-md-4'>
@@ -217,21 +203,21 @@ loadMyProjects = () => {
     class='button buttonProject'
     target="_blank"
     href="https://jakeg-9191.github.io/Giphy-API/"
-    >Live Link</a>
+    ><i class="material-icons bottom-icons">launch</i></a>
     </div>
 
     <div class='col-12 col-md-4'>
-    <a
-    target="_blank"
-    href="https://chilling-crypt-08855.herokuapp.com/"
-    >
     <img
     style='width: 100%; height: ${changeHeight}px;'
     src="assets/images/WashingtonPost.JPG"
     class="other-project-images"
     alt="Washington Post Scraper"
     />
-    </a>
+    <a
+    class='button buttonProject'
+    target="_blank"
+    href="https://chilling-crypt-08855.herokuapp.com/"
+    ><i class="material-icons bottom-icons">launch</i></a>
     </div>
 
     <div class='col-12 col-md-4'>
