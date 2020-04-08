@@ -190,20 +190,34 @@ loadMyProjects = () => {
     changeHeight = parseInt(window.screen.height / 2.5);
   }
 
+  // <div class='col-12 col-md-4'>
+  // <a
+  // target="_blank"
+  // href="https://jakeg-9191.github.io/Giphy-API/"
+  // >
+  // <img
+  // style='width: 100%; height: ${changeHeight}px;'
+  // src="assets/images/john-wick-club-scene-screengrab.jpg"
+  // class="other-project-images"
+  // alt="Action Giphy App"
+  // />
+  // </a>
+  // </div>
+
   textInfo.append(
     `
     <div class='col-12 col-md-4'>
-    <a
-    target="_blank"
-    href="https://jakeg-9191.github.io/Giphy-API/"
-    >
     <img
     style='width: 100%; height: ${changeHeight}px;'
     src="assets/images/john-wick-club-scene-screengrab.jpg"
     class="other-project-images"
     alt="Action Giphy App"
     />
-    </a>
+    <a
+    class='button buttonProject'
+    target="_blank"
+    href="https://jakeg-9191.github.io/Giphy-API/"
+    >Live Link</a>
     </div>
 
     <div class='col-12 col-md-4'>
@@ -281,9 +295,7 @@ loadMyProjects = () => {
 };
 
 loadMySkills = () => {
-  let textInfo = $('<div>')
-    .addClass('row')
-    .attr('id', 'about-me-2');
+  let textInfo = $('<div>').addClass('row').attr('id', 'about-me-2');
   textInfo.append(`            
     <div class="col-md-5 talents">
     <h4>Front End</h4>

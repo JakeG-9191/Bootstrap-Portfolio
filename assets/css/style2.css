@@ -273,14 +273,27 @@ a {
   border-style: solid;
   border-color: #062256;
   border-width: 1px;
-  opacity: .85;
+  opacity: 0.85;
 }
 
 .project-cards:hover {
   transform: scale(1.1);
   z-index: 10;
   opacity: 1;
-  -webkit-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.6s ease-in-out;
+}
+
+.buttonProject {
+  display: none;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  z-index: 79;
+}
+
+.other-project-images:hover + .buttonProject,
+.buttonProject:hover {
+  display: inline-block;
 }
 
 .list-group {
@@ -347,24 +360,24 @@ a {
 
 #contact-images {
   height: 60px;
-  margin-right: 2rem;
+  margin: 1rem;
 }
 
 #contact-images:hover {
   transform: scale(1.4);
   z-index: 10;
-  -webkit-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.6s ease-in-out;
 }
 
 #contact-images-linked {
   height: 75px;
-  margin-right: 2rem;
+  margin: 1rem;
 }
 
 #contact-images-linked:hover {
   transform: scale(1.4);
   z-index: 10;
-  -webkit-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.6s ease-in-out;
 }
 
 #contact-me {
@@ -428,7 +441,7 @@ h1 {
   margin-top: 2rem !important;
   width: 34% !important;
   border-radius: 18px !important;
-  border-width: 5px !important;
+  border-width: 1px !important;
   border-style: solid !important;
   border-color: black !important;
 }
@@ -480,7 +493,7 @@ h1 {
   filter: none;
   -webkit-filter: grayscale(0);
   opacity: 1;
-  transform: scale(1.05);
+  transform: scale(1.01);
   z-index: 51;
 }
 
@@ -524,6 +537,13 @@ h1 {
 @media (max-width: 800px) {
   body {
     background-size: cover;
+  }
+  .other-project-images:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+    opacity: 1;
+    transform: none;
+    z-index: 51;
   }
   .project-cards:hover {
     transform: none;
@@ -581,11 +601,6 @@ h1 {
     min-width: 90%;
     opacity: 1;
   }
-  #carouselExampleIndicators {
-    width: 90%;
-    margin-left: 5%;
-    opacity: 1;
-  }
   #contact-images-linked {
     height: 110px;
     margin-right: 10%;
@@ -618,10 +633,6 @@ h1 {
   }
   .about-me {
     font-size: 20px;
-  }
-  #carouselExampleIndicators {
-    opacity: 1;
-    width: 90%;
   }
   #contact-images-linked {
     height: 100px;
