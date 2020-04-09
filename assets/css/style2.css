@@ -285,7 +285,7 @@ a {
 
 .bottom-icons {
   color: gold;
-  font-size: 7rem !important;
+  font-size: 6rem !important;
 }
 
 .buttonProject {
@@ -574,6 +574,9 @@ h1 {
   .full-width {
     width: 94%;
     margin-left: 2%;
+  }
+  .bottom-icons {
+    font-size: 5rem !important;
   }
 }
 

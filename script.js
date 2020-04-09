@@ -199,11 +199,18 @@ loadMyProjects = () => {
     class="other-project-images"
     alt="Action Giphy App"
     />
+    <div class='buttonProject'>
     <a
-    class='button buttonProject'
+    class='button'
     target="_blank"
     href="https://jakeg-9191.github.io/Giphy-API/"
     ><i class="material-icons bottom-icons">launch</i></a>
+    <a
+    class='button'
+    target="_blank"
+    href="https://github.com/JakeG-9191/Giphy-API"
+    ><i class="material-icons bottom-icons">developer_mode</i></a>
+    </div>
     </div>
 
     <div class='col-12 col-md-4'>
@@ -213,11 +220,18 @@ loadMyProjects = () => {
     class="other-project-images"
     alt="Washington Post Scraper"
     />
+    <div class='buttonProject'>
     <a
-    class='button buttonProject'
+    class='button'
     target="_blank"
     href="https://chilling-crypt-08855.herokuapp.com/"
     ><i class="material-icons bottom-icons">launch</i></a>
+    <a
+    class='button'
+    target="_blank"
+    href="https://github.com/JakeG-9191/Mongo-Search"
+    ><i class="material-icons bottom-icons">developer_mode</i></a>
+    </div>
     </div>
 
     <div class='col-12 col-md-4'>
@@ -227,11 +241,18 @@ loadMyProjects = () => {
     class="other-project-images"
     alt="Bearfoot Voyager"
     />
+    <div class='buttonProject'>
     <a
-    class='button buttonProject'
+    class='button'
     target="_blank"
     href="https://jakeg-9191.github.io/Barefoot-Voyager/"
     ><i class="material-icons bottom-icons">launch</i></a>
+    <a
+    class='button'
+    target="_blank"
+    href="https://github.com/JakeG-9191/Barefoot-Voyager"
+    ><i class="material-icons bottom-icons">developer_mode</i></a>
+    </div>
     </div>
 
     <div class='col-12 col-md-4'>
@@ -241,11 +262,18 @@ loadMyProjects = () => {
     class="other-project-images"
     alt="DevConnector Application"
     />
+    <div class='buttonProject'>
     <a
-    class='button buttonProject'
+    class='button'
     target="_blank"
     href="https://hidden-falls-47750.herokuapp.com/"
     ><i class="material-icons bottom-icons">launch</i></a>
+    <a
+    class='button'
+    target="_blank"
+    href="https://github.com/JakeG-9191/Denver-Dev-Connect"
+    ><i class="material-icons bottom-icons">developer_mode</i></a>
+    </div>
     </div>
 
     <div class='col-12 col-md-4'>
@@ -255,11 +283,18 @@ loadMyProjects = () => {
     class="other-project-images"
     alt="Friend Finder Application"
     />
+    <div class='buttonProject'>
     <a
-    class='button buttonProject'
+    class='button'
     target="_blank"
     href="https://boiling-bayou-10154.herokuapp.com/"
     ><i class="material-icons bottom-icons">launch</i></a>
+    <a
+    class='button'
+    target="_blank"
+    href="https://github.com/JakeG-9191/Friend-Finder"
+    ><i class="material-icons bottom-icons">developer_mode</i></a>
+    </div>
     </div>
 
     <div class='col-12 col-md-4'>
@@ -273,7 +308,7 @@ loadMyProjects = () => {
     class='button buttonProject'
     target="_blank"
     href="https://github.com/JakeG-9191/Bamazon-Node-App"
-    ><i class="material-icons bottom-icons">launch</i></a>
+    ><i class="material-icons bottom-icons">developer_mode</i></a>
     </div>
 `
   );
