@@ -291,10 +291,9 @@ a {
 .buttonProject {
   display: none;
   position: absolute;
-  top: 40%;
-  left: 35%;
+  top: 0;
+  left: 0;
   z-index: 79;
-  padding: 1rem 2rem;
 }
 
 .other-project-images:hover + .buttonProject,

@@ -251,14 +251,14 @@ loadMyProjects = () => {
     <div class='col-12 col-md-4'>
     <img
     style='width: 100%; height: ${changeHeight}px;'
-    src="assets/images/Purple Crystal.jpg"
+    src="assets/images/Friendfinder.jpg"
     class="other-project-images"
-    alt="Crystal Collector"
+    alt="Friend Finder Application"
     />
     <a
     class='button buttonProject'
     target="_blank"
-    href="https://jakeg-9191.github.io/Unit-4-Game/"
+    href="https://boiling-bayou-10154.herokuapp.com/"
     ><i class="material-icons bottom-icons">launch</i></a>
     </div>
 
