@@ -279,7 +279,7 @@ loadMyProjects = () => {
     <div class='col-12 col-md-4'>
     <img
     style='width: 100%; height: ${changeHeight}px;'
-    src="assets/images/Friendfinder.jpg"
+    src="assets/images/Friendfinder.JPG"
     class="other-project-images"
     alt="Friend Finder Application"
     />
