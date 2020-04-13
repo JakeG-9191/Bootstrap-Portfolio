@@ -29,6 +29,21 @@ font-family: 'Public Sans', sans-serif; */
   }
 }
 
+@keyframes intro-change {
+  0% {
+    border-color: #aa0056;
+  }
+  33%{
+    border-color: #59108a;
+  }
+  66%{
+    border-color: #20014c;
+  }
+  100% {
+    border-color: #aa0056;
+  }
+}
+
 body {
   font-family: 'Public Sans', sans-serif;
   font-size: 18px;
@@ -86,7 +101,7 @@ body {
 }
 
 .nav-bar:hover {
-  background: #062256;
+  background: #aa0056;
 }
 
 .w-100 {
@@ -122,8 +137,8 @@ p {
   font-size: 12px;
   color: whitesmoke;
   text-align: center;
-  background: #1b0b56;
-  border-top: 5px solid black;
+  background: black;
+  border-top: 2px solid #aa0056;
   padding-top: 1rem;
 }
 
@@ -153,11 +168,11 @@ a {
 #profile-picture {
   height: 250px;
   width: 250px;
-  border-radius: 15%;
+  border-radius: 5%;
   border-style: solid;
-  border-width: 5px;
-  border-color: #1b0b56;
+  border-width: 3px;
   margin-bottom: 3rem;
+  animation: intro-change 3s infinite linear;
 }
 
 #profile-name {
@@ -191,10 +206,10 @@ a {
   margin-top: 7rem;
   text-align: center;
   margin-bottom: 7rem;
-  background: #1b0b56;
+  background: black;
   color: whitesmoke;
   border-style: solid;
-  border-color: black;
+  border-color: #aa0056;
   border-width: 5px;
   border-right: 0;
   border-left: 0;
@@ -209,10 +224,10 @@ a {
   margin-top: 7rem;
   text-align: center;
   margin-bottom: 5rem;
-  background: #1b0b56;
+  background: black;
   color: whitesmoke;
   border-style: solid;
-  border-color: black;
+  border-color: #aa0056;
   border-width: 5px;
   border-right: 0;
   border-left: 0;
@@ -232,10 +247,15 @@ a {
   border-radius: 18px;
   text-align: center;
   border-style: solid;
-  background: #1b0b56;
+  background: black;
   border-width: 1px;
   opacity: 0.85;
-  border-color: whitesmoke;
+  border-color: #aa0056;;
+  border-right: 0;
+  border-left: 0;
+  margin-right: 1%;
+  margin-left: 1%;
+  max-width: 31%;
 }
 
 .project-cards:hover {
@@ -284,11 +304,11 @@ a {
 #contact-information {
   padding: 2rem;
   text-align: center;
-  background: #1b0b56;
+  background: black;
   color: whitesmoke;
   padding-bottom: 5rem;
   border-style: solid;
-  border-color: black;
+  border-color: #aa0056;
   border-width: 5px;
   border-right: 0;
   border-left: 0;
@@ -356,11 +376,10 @@ h1 {
 .talents {
   border-style: solid;
   padding: 1rem;
-  border-color: black;
-  border-width: 5px;
-  border-radius: 15%;
+  border-color: #aa0056;
+  border-width: 1px;
+  border-radius: 30%;
   margin-left: 6%;
-  background: black;
 }
 
 .navbar-toggler {
@@ -378,7 +397,7 @@ h1 {
 }
 
 .navbar-light .navbar-toggler {
-  background: #1b0b56;
+  background: #aa0056;;
   margin-bottom: 1rem;
   border-radius: 1px;
   border-color: whitesmoke;
@@ -394,9 +413,9 @@ h1 {
   margin-top: 2rem !important;
   width: 34% !important;
   border-radius: 18px !important;
-  border-width: 1px !important;
+  border-width: 2px !important;
   border-style: solid !important;
-  border-color: black !important;
+  border-color: #aa0056 !important;
 }
 
 .talents h5:hover {
@@ -415,7 +434,7 @@ h1 {
 }
 
 .material-icons:hover {
-  color: red;
+  color: #aa0056;
   transform: rotate(90deg);
 }
 
@@ -423,7 +442,7 @@ h1 {
   padding: 0rem;
 }
 
-.card-bottom {
+/* .card-bottom {
   background-color: whitesmoke;
   padding: 1rem;
   margin-left: 3rem;
@@ -432,7 +451,7 @@ h1 {
   border-style: solid;
   border-color: red;
   border-width: 5px;
-}
+} */
 
 .other-project-images {
   filter: gray;
