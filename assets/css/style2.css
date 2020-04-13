@@ -73,7 +73,6 @@ body {
 
 .card {
   border: none;
-  background-color: transparent;
 }
 
 .card-title {
@@ -172,7 +171,8 @@ a {
   border-style: solid;
   border-width: 3px;
   margin-bottom: 3rem;
-  animation: intro-change 3s infinite linear;
+  animation: intro-change 3s infinite ease-in-out;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #profile-name {
@@ -194,6 +194,7 @@ a {
   width: 100px;
   margin-right: 2rem;
   animation: fadeIn 1s linear;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .intro-me {
