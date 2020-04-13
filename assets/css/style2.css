@@ -184,7 +184,10 @@ a {
 
 @keyframes name-fade {
   0% {
-    transform: scale(3);
+    transform: scale(2);
+  }
+  75% {
+    transform: scale(1.5);
   }
   100% {
     transform: scale(1);
@@ -195,7 +198,7 @@ a {
   text-align: center;
   margin-bottom: 6rem;
   color: whitesmoke;
-  animation: name-fade 2s;
+  animation: name-fade 2.5s;
   width: 50%;
   margin-left: 25%;
 }
@@ -204,8 +207,8 @@ a {
   text-align: center;
   margin-bottom: 6rem;
   color: whitesmoke;
-  animation-delay: 2s;
-  animation: name-fade 6s;
+  animation-delay: 2.5s;
+  animation: name-fade 8s;
   width: 50%;
   margin-left: 25%;
 }
