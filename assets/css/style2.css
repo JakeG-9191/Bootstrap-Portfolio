@@ -124,7 +124,7 @@ p {
   text-align: center;
   background: #1b0b56;
   border-top: 5px solid black;
-  height: 50px;
+  padding-top: 1rem;
 }
 
 #name-tag {

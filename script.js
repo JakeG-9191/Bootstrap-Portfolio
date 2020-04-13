@@ -22,6 +22,28 @@ typeWriterTwo = () => {
   }
 };
 
+const scrollElement = document.querySelector('#main-container');
+
+const topScroll = -400;
+const MidScroll = -1600;
+const BottomScroll = -3600;
+
+window.addEventListener('scroll', (event) => {
+  const { top } = scrollElement.getBoundingClientRect();
+  if (top - window.innerHeight < topScroll) {
+    scrollElement.style.backgroundImage =
+      'url("../assets/images/PurpleOneTouched.jpg")';
+  }
+  if (top - window.innerHeight < MidScroll) {
+    scrollElement.style.backgroundImage =
+      'url("../assets/images/AbstractTwoTouched.jpg")';
+  }
+  if (top - window.innerHeight < BottomScroll) {
+    scrollElement.style.backgroundImage =
+      'url("../assets/images/PurpleThreeTouched.jpg")';
+  }
+});
+
 setThis = () => {
   let thisInfo = $('<div>');
   thisInfo.append(
@@ -399,7 +421,7 @@ loadMyFooter = () => {
     `
     <div class="row">
       <div class="col-md-12 col-12">
-        Copyright &copy (2020) | Photos by JR Korpa & Efe Kurnaz on Unsplash
+        <h6>Copyright &copy (2020) | Photos by JR Korpa & Efe Kurnaz on Unsplash</h6>
       </div>
     </div>
     `
@@ -419,25 +441,3 @@ setTimeout(loadMySkills, siteSetTime);
 setTimeout(loadMyContact, siteSetTime);
 setTimeout(loadMyTwitter, siteSetTime);
 setTimeout(loadMyFooter, siteSetTime);
-
-const scrollElement = document.querySelector('#main-container');
-
-const topScroll = -400;
-const MidScroll = -1600;
-const BottomScroll = -3600;
-
-window.addEventListener('scroll', (event) => {
-  const { top } = scrollElement.getBoundingClientRect();
-  if (top - window.innerHeight < topScroll) {
-    scrollElement.style.backgroundImage =
-      'url("../assets/images/PurpleOneTouched.jpg")';
-  }
-  if (top - window.innerHeight < MidScroll) {
-    scrollElement.style.backgroundImage =
-      'url("../assets/images/AbstractTwoTouched.jpg")';
-  }
-  if (top - window.innerHeight < BottomScroll) {
-    scrollElement.style.backgroundImage =
-      'url("../assets/images/PurpleThreeTouched.jpg")';
-  }
-});
