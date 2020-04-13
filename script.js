@@ -2,7 +2,7 @@ let i = 0;
 let j = 0;
 let text = `hi, i'm Jake,`;
 let secondText = `I design and code amazing websites and web applications...`;
-let speed = 70;
+let speed = 60;
 
 typeWriter = () => {
   if (i < text.length) {
@@ -424,7 +424,7 @@ loadMyFooter = () => {
     `
     <div class="row">
       <div class="col-md-12 col-12">
-        <h6>Copyright &copy (2020) | Photos by JR Korpa & Efe Kurnaz on Unsplash</h6>
+        <h6>Copyright &copy (2020) | Backgrounds by JR Korpa & Efe Kurnaz on Unsplash</h6>
       </div>
     </div>
     `
