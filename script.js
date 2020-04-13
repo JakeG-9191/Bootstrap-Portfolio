@@ -25,8 +25,8 @@ typeWriterTwo = () => {
 const scrollElement = document.querySelector('#main-container');
 
 const topScroll = window.innerHeight * -0.85;
-const MidScroll = window.innerHeight * -2.8;
-const BottomScroll = window.innerHeight * -6;
+const MidScroll = window.innerHeight * -2.6;
+const BottomScroll = window.innerHeight * -5;
 console.log(
   `top is ${topScroll}, mid is ${MidScroll}, bottom is ${BottomScroll}`
 );
