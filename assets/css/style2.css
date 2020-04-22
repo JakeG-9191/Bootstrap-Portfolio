@@ -213,7 +213,7 @@ a {
   margin-bottom: 6rem;
   color: whitesmoke;
   animation-delay: 2.5s;
-  animation: name-fade 8s;
+  animation: name-fade 7s;
   width: 50%;
   margin-left: 25%;
 }
@@ -594,6 +594,14 @@ h1 {
   }
   .card-text {
     letter-spacing: normal;
+  }
+  #profile-name {
+    width: 70%;
+    margin-left: 15%;
+  }
+  #profile-name-more {
+    width: 70%;
+    margin-left: 15%;
   }
 }
 
