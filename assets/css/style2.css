@@ -48,6 +48,18 @@ html {
   }
 }
 
+@keyframes name-fade {
+  0% {
+    transform: scale(2);
+  }
+  75% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 body {
   font-family: 'Public Sans', sans-serif;
   font-size: 18px;
@@ -187,18 +199,6 @@ a {
   box-shadow: 0 4px 8px 0 #aa0056, 0 6px 20px 0 #aa0056;
 }
 
-@keyframes name-fade {
-  0% {
-    transform: scale(2);
-  }
-  75% {
-    transform: scale(1.5);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
 #profile-name {
   text-align: center;
   margin-bottom: 6rem;
@@ -243,7 +243,6 @@ a {
   border-right: 0;
   border-left: 0;
   font-size: 24px;
-  line-height: 3rem;
   border-radius: 25%;
   letter-spacing: normal;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -476,17 +475,6 @@ h1 {
   padding: 0rem;
 }
 
-/* .card-bottom {
-  background-color: whitesmoke;
-  padding: 1rem;
-  margin-left: 3rem;
-  border-radius: 18px;
-  margin-top: 7rem;
-  border-style: solid;
-  border-color: red;
-  border-width: 5px;
-} */
-
 .other-project-images {
   filter: gray;
   -webkit-filter: grayscale(1);
@@ -599,6 +587,13 @@ h1 {
     margin-left: 10% !important;
     width: 80% !important;
   }
+  #about-me {
+    font-size: 18px;
+    padding: 2rem;
+  }
+  .card-text {
+    letter-spacing: normal;
+  }
 }
 
 @media (max-width: 480px) {
@@ -612,14 +607,14 @@ h1 {
     opacity: 1;
   }
   #contact-images-linked {
-    height: 110px;
+    height: 100px;
     margin-right: 10%;
     width: 35%;
     margin-left: 10%;
     margin-bottom: 1rem;
   }
   #contact-images {
-    height: 90px;
+    height: 85px;
     margin-right: 10%;
     width: 30%;
     margin-left: 10%;
@@ -641,18 +636,15 @@ h1 {
     margin-top: 5%;
     opacity: 1;
   }
-  .about-me {
-    font-size: 20px;
-  }
   #contact-images-linked {
-    height: 100px;
+    height: 95px;
     margin-right: 10%;
     width: 40%;
     margin-left: 10%;
     margin-bottom: 1rem;
   }
   #contact-images {
-    height: 85px;
+    height: 80px;
     margin-right: 10%;
     width: 35%;
     margin-left: 10%;
