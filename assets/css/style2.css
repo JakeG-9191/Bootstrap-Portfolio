@@ -1,6 +1,10 @@
 /* font-family: 'Calistoga', cursive;
 font-family: 'Public Sans', sans-serif; */
 
+html {
+  scroll-behavior: smooth;
+}
+
 @keyframes flip {
   0% {
     transform: rotate(90deg);
@@ -179,6 +183,7 @@ a {
 #profile-picture:hover {
   -webkit-transition: all 0.7s ease-in-out;
   transform: scale(1.1);
+  border-width: 1px;
   box-shadow: 0 4px 8px 0 #aa0056, 0 6px 20px 0 #aa0056;
 }
 
