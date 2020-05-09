@@ -24,13 +24,25 @@ typeWriterTwo = () => {
 
 const scrollElement = document.querySelector('#main-container');
 
-const myAutoHeight = window.outerHeight;
+const myAutoHeight = window.innerHeight;
+const myAutoWidth = window.innerWidth;
 
-const topScroll = myAutoHeight * -0.5;
-const MidScroll = myAutoHeight * -1.6;
-const BottomScroll = myAutoHeight * -3;
+var topScroll = 0;
+var midScroll = 0;
+var bottomScroll = 0;
+
+if (myAutoWidth < myAutoHeight) {
+  topScroll = myAutoHeight * -0.5;
+  midScroll = myAutoHeight * -1.6;
+  bottomScroll = myAutoHeight * -3;
+} else {
+  topScroll = myAutoHeight * -1;
+  midScroll = myAutoHeight * -3.6;
+  bottomScroll = myAutoHeight * -7;
+}
+
 console.log(
-  `top is ${topScroll}, mid is ${MidScroll}, bottom is ${BottomScroll}`
+  `top is ${topScroll}, mid is ${midScroll}, bottom is ${bottomScroll}\nheight ${myAutoHeight} and width ${myAutoWidth}`
 );
 
 window.addEventListener('scroll', (event) => {
@@ -39,11 +51,11 @@ window.addEventListener('scroll', (event) => {
     scrollElement.style.backgroundImage =
       'url("../assets/images/PurpleOneTouched.jpg")';
   }
-  if (top - window.innerHeight < MidScroll) {
+  if (top - window.innerHeight < midScroll) {
     scrollElement.style.backgroundImage =
       'url("../assets/images/AbstractTwoTouched.jpg")';
   }
-  if (top - window.innerHeight < BottomScroll) {
+  if (top - window.innerHeight < bottomScroll) {
     scrollElement.style.backgroundImage =
       'url("../assets/images/PurpleThreeTouched.jpg")';
   }
