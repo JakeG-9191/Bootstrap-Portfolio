@@ -33,8 +33,8 @@ var bottomScroll;
 
 if (myAutoWidth >= myAutoHeight) {
   topScroll = myAutoHeight * -0.5;
-  midScroll = myAutoHeight * -2;
-  bottomScroll = myAutoHeight * -4;
+  midScroll = myAutoHeight * -1.5;
+  bottomScroll = myAutoHeight * -3;
 } else {
   topScroll = myAutoHeight * -1;
   midScroll = myAutoHeight * -6;
@@ -410,24 +410,6 @@ loadMyContact = () => {
   $('#full-width-bottom').append(textInfo);
 };
 
-loadMyTwitter = () => {
-  $('#full-width-bottom').append(`
-  <a
-  class="twitter-timeline"
-  data-lang="en"
-  data-height="550"
-  data-theme="dark"
-  href="https://twitter.com/garlick_jake?ref_src=twsrc%5Etfw"
-  >Tweets by garlick_jake</a
->
-<script
-  async
-  src="https://platform.twitter.com/widgets.js"
-  charset="utf-8"
-></script>
-  `);
-};
-
 loadMyFooter = () => {
   let textInfo = $('<div>').addClass('my-footer container');
   textInfo.append(
@@ -452,5 +434,4 @@ setTimeout(loadMyHighlights, siteSetTime);
 setTimeout(loadMyProjects, siteSetTime);
 setTimeout(loadMySkills, siteSetTime);
 setTimeout(loadMyContact, siteSetTime);
-setTimeout(loadMyTwitter, siteSetTime);
 setTimeout(loadMyFooter, siteSetTime);

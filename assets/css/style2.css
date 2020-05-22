@@ -440,18 +440,6 @@ h1 {
   background-color: black !important;
 }
 
-.twitter-timeline {
-  margin-left: 33% !important;
-  margin-top: 2rem !important;
-  margin-bottom: 1rem !important;
-  width: 34% !important;
-  border-radius: 18px !important;
-  border-width: 2px !important;
-  border-style: solid !important;
-  border-color: #aa0056 !important;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
-}
-
 .talents h5:hover {
   transform: scale(1.4);
   text-decoration: underline;
@@ -583,10 +571,6 @@ h1 {
   }
   #main-navigation {
     display: none !important;
-  }
-  .twitter-timeline {
-    margin-left: 10% !important;
-    width: 80% !important;
   }
   #about-me {
     font-size: 18px;
