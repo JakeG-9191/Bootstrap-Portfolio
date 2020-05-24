@@ -406,6 +406,7 @@ loadMyContact = () => {
     id="contact-images"
     src="assets/images/links/Email-White.png"
 /></a>
+<p style="color: white; margin-top: 1rem">I am available for consultation or hire concerning website or web application development, please email me to discuss projects or positions.</p>
 `);
   $('#full-width-bottom').append(textInfo);
 };
