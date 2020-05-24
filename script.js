@@ -79,8 +79,8 @@ loadMyBackground = () => {
   let textInfo = $('<div>').attr('id', 'about-me');
   textInfo.append(`From database ties and cloud services to user experiences on the
   front, I work towards providing solutions with a full-stack
-  toolbelt. From websites to applications to browser based games, I
-  design, develop and produce stylish and polished projects,
+  toolbelt. Whether websites or applications or browser based games, I
+  design, develop, test and produce stylish and polished projects,
   critically involved from planning to publication. You can see a
   curated list of my work below, along with some of my most recent
   projects.`);
