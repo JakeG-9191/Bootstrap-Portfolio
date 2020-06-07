@@ -206,6 +206,7 @@ a {
   animation: name-fade 2.5s;
   width: 50%;
   margin-left: 25%;
+  text-shadow: -3px -3px 5px #000000;
 }
 
 #profile-name-more {
@@ -216,6 +217,7 @@ a {
   animation: name-fade 7s;
   width: 50%;
   margin-left: 25%;
+  text-shadow: -3px -3px 5px #000000;
 }
 
 .tech-pics {

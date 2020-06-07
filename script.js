@@ -62,7 +62,9 @@ setThis = () => {
   thisInfo.append(
     `<img class="tech-pics" src="assets/images/tech/HTML5_Logo_512.png" />
         <img class="tech-pics" src="assets/images/tech/badge-css-3-512.png" />
+        <img class="tech-pics" src="assets/images/tech/bootstrap.png" />
         <img class="tech-pics" src="assets/images/tech/javascriptlang.png" />
+        <img class="tech-pics" src="assets/images/tech/jquery.png" />
         <img
           class="tech-pics"
           src="assets/images/tech/430-4309307_react-js-transparent-logo-hd-png-download.png"
@@ -70,7 +72,8 @@ setThis = () => {
         <img class="tech-pics" src="assets/images/tech/511529_preview.png" />
         <img class="tech-pics" src="assets/images/tech/mongodb-226029.png" />
         <img class="tech-pics" src="assets/images/tech/sql_694757.png" />
-        <img class="tech-pics" src="assets/images/tech/AWS-logo.png" />`
+        <img class="tech-pics" src="assets/images/tech/AWS-logo.png" />
+        <img class="tech-pics" src="assets/images/tech/git.png" />`
   );
   $('.technology-me').append(thisInfo);
 };
