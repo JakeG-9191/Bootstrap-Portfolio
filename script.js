@@ -72,7 +72,7 @@ setThis = () => {
         <img class="tech-pics" src="assets/images/tech/511529_preview.png" />
         <img class="tech-pics" src="assets/images/tech/mongodb-226029.png" />
         <img class="tech-pics" src="assets/images/tech/sql_694757.png" />
-        <img class="tech-pics" src="assets/images/tech/AWS-logo.png" />
+        <img class="tech-pics" src="assets/images/tech/aws-mobile-hub.svg" />
         <img class="tech-pics" src="assets/images/tech/git.png" />`
   );
   $('.technology-me').append(thisInfo);
