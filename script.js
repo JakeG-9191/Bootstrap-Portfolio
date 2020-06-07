@@ -58,7 +58,7 @@ window.addEventListener('scroll', (event) => {
 });
 
 setThis = () => {
-  let thisInfo = $('<div>');
+  let thisInfo = $('<div id="technology-width-correction">');
   thisInfo.append(
     `<img class="tech-pics" src="assets/images/tech/HTML5_Logo_512.png" />
         <img class="tech-pics" src="assets/images/tech/badge-css-3-512.png" />
