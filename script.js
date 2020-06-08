@@ -61,7 +61,7 @@ setThis = () => {
   let thisInfo = $('<div id="technology-width-correction">');
   thisInfo.append(
     `<img class="tech-pics" src="assets/images/tech/HTML5_Logo_512.png" />
-        <img class="tech-pics" src="assets/images/tech/badge-css-3-512.png" />
+        <img class="tech-pics" src="assets/images/tech/css3.png" />
         <img class="tech-pics" src="assets/images/tech/bootstrap.png" />
         <img class="tech-pics" src="assets/images/tech/javascriptlang.png" />
         <img class="tech-pics" src="assets/images/tech/jquery.png" />
