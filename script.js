@@ -361,7 +361,7 @@ loadMyPublications = () => {
       <a 
       class="publications"
       target="_blank"
-      href="https://medium.com/@bjornsin/build-a-multiple-choice-trivia-game-react-61ee0f5bcf12#3262-4193e0f3b678">
+      href="https://medium.com/@bjornsin/build-a-multiple-choice-trivia-game-react-61ee0f5bcf12?source=friends_link&sk=8235cc9a6a8f0be8d8ccdd44e43bd653">
       Build A Multiple Choice Trivia Game - React [Medium]
       </a>
     </div>

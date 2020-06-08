@@ -502,17 +502,8 @@ h1 {
   width: 20%;
 }
 
-.publications {
-  height: 100px;
-  width: 100px;
-}
-
 .publications:hover {
   color: #ffffff;
-  background-image: url('../images/COVID19.PNG');
-  height: 100px;
-  width: 100px;
-  z-index: 99;
 }
 
 /* Media Queries */
