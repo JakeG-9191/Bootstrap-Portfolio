@@ -352,27 +352,44 @@ loadMyProjects = () => {
   $('.about-me').append(textInfo);
 };
 
+loadMyPublications = () => {
+  let textInfo = $('<div>').addClass('row').attr('id', 'about-me-2');
+  textInfo.append(`
+    <div class="col-md-12" id="publication-zone">
+      <h3>Publications</h3>
+      <hr id='contact-hr-fix-publication'></hr>
+      <a 
+      class="publications"
+      target="_blank"
+      href="https://medium.com/@bjornsin/build-a-multiple-choice-trivia-game-react-61ee0f5bcf12#3262-4193e0f3b678">
+      Build A Multiple Choice Trivia Game - React [Medium]
+      </a>
+    </div>
+  `);
+  $('#full-width-bottom').append(textInfo);
+};
+
 loadMySkills = () => {
   let textInfo = $('<div>').addClass('row').attr('id', 'about-me-2');
-  textInfo.append(`            
+  textInfo.append(`
     <div class="col-md-5 talents">
-    <h4>Front End</h4>
-    <h5>HTML5</h5>
-    <h5>CSS3</h5>
-    <h5>Client JavaScript / ES6+</h5>
-    <h5>jQuery</h5>
-    <h5>React</h5>
-    <h5>Bootstrap</h5>
+      <h4>Front End</h4>
+      <h5>HTML5</h5>
+      <h5>CSS3</h5>
+      <h5>Client JavaScript / ES6+</h5>
+      <h5>jQuery</h5>
+      <h5>React</h5>
+      <h5>Bootstrap</h5>
   </div>
   <div class="col-md-5 talents">
-    <h4>Back End</h4>
-    <h5>Node.js</h5>
-    <h5>Express.js</h5>
-    <h5>MongoDB</h5>
-    <h5>MySQL</h5>
-    <h5>RESTful APIs</h5>
-    <h5>Unit & Integration Testing</h5>
-    <h5>Cloud Services (AWS)</h5>
+      <h4>Back End</h4>
+      <h5>Node.js</h5>
+      <h5>Express.js</h5>
+      <h5>MongoDB</h5>
+      <h5>MySQL</h5>
+      <h5>RESTful APIs</h5>
+      <h5>Unit & Integration Testing</h5>
+      <h5>Cloud Services (AWS)</h5>
   </div>`);
   $('#full-width-bottom').append(textInfo);
 };
@@ -408,6 +425,7 @@ loadMyContact = () => {
     id="contact-images"
     src="assets/images/links/Email-White.png"
 /></a>
+<hr id='contact-hr-fix'></hr>
 <p style="color: white; margin-top: 1rem">I am available for consultation or hire concerning website or web application development, please email me to discuss projects or positions.</p>
 `);
   $('#full-width-bottom').append(textInfo);
@@ -435,6 +453,7 @@ setTimeout(setThis, 6000);
 setTimeout(loadMyBackground, siteSetTime);
 setTimeout(loadMyHighlights, siteSetTime);
 setTimeout(loadMyProjects, siteSetTime);
+setTimeout(loadMyPublications, siteSetTime);
 setTimeout(loadMySkills, siteSetTime);
 setTimeout(loadMyContact, siteSetTime);
 setTimeout(loadMyFooter, siteSetTime);
