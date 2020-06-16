@@ -357,13 +357,15 @@ loadMyPublications = () => {
   textInfo.append(`
     <div class="col-md-12" id="publication-zone">
       <h3>Publications</h3>
-      <hr id='contact-hr-fix-publication'></hr>
-      <a 
-      class="publications"
-      target="_blank"
-      href="https://medium.com/@bjornsin/build-a-multiple-choice-trivia-game-react-61ee0f5bcf12?source=friends_link&sk=8235cc9a6a8f0be8d8ccdd44e43bd653">
-      Build A Multiple Choice Trivia Game - React [Medium]
-      </a>
+      <div>
+        <hr id='contact-hr-fix-publication'></hr>
+        <a 
+        class="publications"
+        target="_blank"
+        href="https://medium.com/@bjornsin/build-a-multiple-choice-trivia-game-react-61ee0f5bcf12?source=friends_link&sk=8235cc9a6a8f0be8d8ccdd44e43bd653">
+        Build A Multiple Choice Trivia Game - React [Medium]
+        </a>
+      </div>
     </div>
   `);
   $('#full-width-bottom').append(textInfo);
