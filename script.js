@@ -24,21 +24,21 @@ typeWriterTwo = () => {
 
 const scrollElement = document.querySelector('#main-container');
 
-const myAutoHeight = window.innerHeight;
-const myAutoWidth = window.innerWidth;
+const myAutoHeight = document.documentElement.scrollHeight;
+const myAutoWidth = document.documentElement.scrollWidth;
 
 var topScroll;
 var midScroll;
 var bottomScroll;
 
 if (myAutoWidth >= myAutoHeight) {
-  topScroll = myAutoHeight * -0.5;
-  midScroll = myAutoHeight * -1.5;
-  bottomScroll = myAutoHeight * -3;
+  topScroll = myAutoHeight * -1;
+  midScroll = myAutoHeight * -2;
+  bottomScroll = myAutoHeight * -4;
 } else {
   topScroll = myAutoHeight * -1;
-  midScroll = myAutoHeight * -6;
-  bottomScroll = myAutoHeight * -12;
+  midScroll = myAutoHeight * -5;
+  bottomScroll = myAutoHeight * -10;
 }
 
 window.addEventListener('scroll', (event) => {
