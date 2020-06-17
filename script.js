@@ -362,6 +362,14 @@ loadMyPublications = () => {
         <a 
         class="publications"
         target="_blank"
+        href="https://medium.com/p/thinking-about-a-coding-bootcamp-eight-things-to-ponder-7fcec74f804d?source=email-38b720119ea--writer.postDistributed&sk=a276b8f749f67a6dbc5ca15aac07711d">
+        Thinking About A Coding Bootcamp? Eight Things To Ponder [Medium]
+        </a>
+      </div>
+        <div>
+        <a 
+        class="publications"
+        target="_blank"
         href="https://medium.com/@bjornsin/build-a-multiple-choice-trivia-game-react-61ee0f5bcf12?source=friends_link&sk=8235cc9a6a8f0be8d8ccdd44e43bd653">
         Build A Multiple Choice Trivia Game - React [Medium]
         </a>
