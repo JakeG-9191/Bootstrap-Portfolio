@@ -73,7 +73,8 @@ setThis = () => {
         <img class="tech-pics" src="assets/images/tech/mongodb-226029.png" />
         <img class="tech-pics" src="assets/images/tech/sql_694757.png" />
         <img class="tech-pics" src="assets/images/tech/aws-mobile-hub.svg" />
-        <img class="tech-pics" src="assets/images/tech/git.png" />`
+        <img class="tech-pics" src="assets/images/tech/git.png" />
+        <img class="tech-pics" src="assets/images/tech/shopify.png" />`
   );
   $('.technology-me').append(thisInfo);
 };
@@ -383,13 +384,14 @@ loadMySkills = () => {
   let textInfo = $('<div>').addClass('row').attr('id', 'about-me-2');
   textInfo.append(`
     <div class="col-md-5 talents">
-      <h4>Front End</h4>
+      <h4>Front End & CMS</h4>
       <h5>HTML5</h5>
       <h5>CSS3</h5>
       <h5>Client JavaScript / ES6+</h5>
       <h5>jQuery</h5>
       <h5>React</h5>
       <h5>Bootstrap</h5>
+      <h5>Shopify</h5>
   </div>
   <div class="col-md-5 talents">
       <h4>Back End</h4>
