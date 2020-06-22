@@ -254,20 +254,20 @@ loadMyProjects = () => {
     <div class='col-12 col-md-4'>
     <img
     style='width: 100%; height: ${changeHeight}px;'
-    src="assets/images/WashingtonPost.JPG"
+    src="assets/images/MyFavoriteThings.PNG"
     class="other-project-images"
-    alt="Washington Post Scraper"
+    alt="My Favorite Things"
     />
     <div class='buttonProject'>
     <a
     class='button'
     target="_blank"
-    href="https://chilling-crypt-08855.herokuapp.com/"
+    href="https://myfavoritethingscolorado.com/"
     ><i class="material-icons bottom-icons">launch</i></a>
     <a
     class='button'
     target="_blank"
-    href="https://github.com/JakeG-9191/Mongo-Search"
+    href=""
     ><i class="material-icons bottom-icons">developer_mode</i></a>
     </div>
     </div>
