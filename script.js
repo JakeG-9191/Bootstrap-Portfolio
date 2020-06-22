@@ -264,11 +264,6 @@ loadMyProjects = () => {
     target="_blank"
     href="https://myfavoritethingscolorado.com/"
     ><i class="material-icons bottom-icons">launch</i></a>
-    <a
-    class='button'
-    target="_blank"
-    href=""
-    ><i class="material-icons bottom-icons">developer_mode</i></a>
     </div>
     </div>
 
