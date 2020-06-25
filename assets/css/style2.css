@@ -497,9 +497,9 @@ h1 {
   width: 40%;
 }
 
-#contact-hr-fix-publication {
+.contact-hr-fix-publication {
   background-color: #ffffff;
-  width: 20%;
+  width: 33%;
 }
 
 .publications:hover {

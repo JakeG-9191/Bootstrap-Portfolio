@@ -354,7 +354,16 @@ loadMyPublications = () => {
     <div class="col-md-12" id="publication-zone">
       <h3>Publications</h3>
       <div>
-        <hr id='contact-hr-fix-publication'></hr>
+        <hr class='contact-hr-fix-publication'></hr>
+        <a 
+        class="publications"
+        target="_blank"
+        href="https://medium.com/dev-genius/four-quick-css-tricks-to-impress-79673c5edf6e">
+        Four Quick CSS Tricks To Impress [Medium]
+        </a>
+      </div>
+      <div>
+        <hr class='contact-hr-fix-publication'></hr>
         <a 
         class="publications"
         target="_blank"
@@ -362,7 +371,8 @@ loadMyPublications = () => {
         Thinking About A Coding Bootcamp? Eight Things To Ponder [Medium]
         </a>
       </div>
-        <div>
+      <div>
+        <hr class='contact-hr-fix-publication'></hr>
         <a 
         class="publications"
         target="_blank"
@@ -407,7 +417,8 @@ loadMyContact = () => {
 <div id="contact-me">
   <h3 style="color: white">Contact Me</h3>
 </div>
-<a target="_blank" href="https://github.com/JakeG-9191"
+<a 
+  target="_blank" href="https://github.com/JakeG-9191"
   ><img
     id="contact-images"
     src="assets/images/links/Github-White.png"
@@ -421,13 +432,23 @@ loadMyContact = () => {
     src="assets/images/links/LinkedIn-White.png"
 /></a>
 
-<a target="_blank" href="https://twitter.com/garlick_jake"
+<a 
+  target="_blank" href="https://twitter.com/garlick_jake"
   ><img
     id="contact-images"
     src="assets/images/links/Twitter-White.png"
 /></a>
 
-<a target="_blank" href="mailto:jacobgarlick@msn.com"
+<a 
+  target="_blank" href="https://medium.com/@bjornsin"
+  ><img
+    id="contact-images"
+    src="assets/images/links/Medium-White.png"
+/></a>
+
+<a 
+  target="_blank" 
+  href="mailto:jacobgarlick@msn.com"
   ><img
     id="contact-images"
     src="assets/images/links/Email-White.png"
