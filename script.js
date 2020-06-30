@@ -45,15 +45,15 @@ window.addEventListener('scroll', (event) => {
   const { top } = scrollElement.getBoundingClientRect();
   if (top - window.outerHeight < topScroll) {
     scrollElement.style.backgroundImage =
-      'url("../assets/images/PurpleOneTouched.jpg")';
+      'url("../assets/images/trianglilfy-export.png")';
   }
   if (top - window.outerHeight < midScroll) {
     scrollElement.style.backgroundImage =
-      'url("../assets/images/AbstractTwoTouched.jpg")';
+      'url("../assets/images/trianglify-export-other.png")';
   }
   if (top - window.outerHeight < bottomScroll) {
     scrollElement.style.backgroundImage =
-      'url("../assets/images/PurpleThreeTouched.jpg")';
+      'url("../assets/images/trianglify-export-three.png")';
   }
 });
 
@@ -465,7 +465,7 @@ loadMyFooter = () => {
     `
     <div class="row">
       <div class="col-md-12 col-12">
-        <h6>Copyright &copy (2020) | Backgrounds by JR Korpa & Efe Kurnaz on Unsplash</h6>
+        <h6>Copyright &copy (2020)</h6>
       </div>
     </div>
     `
