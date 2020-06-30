@@ -69,7 +69,7 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
   line-height: 34px;
-  color: #777777;
+  color: black;
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -99,8 +99,8 @@ body {
 }
 
 .card-title {
-  font-size: 22px;
-  color: whitesmoke;
+  font-size: 2em;
+  color: black;
 }
 
 .navbar {
@@ -123,7 +123,8 @@ body {
 }
 
 .nav-bar:hover {
-  background: #aa0056;
+  background: lime;
+  color: black;
 }
 
 .w-100 {
@@ -133,7 +134,7 @@ body {
 
 p {
   padding: 1rem;
-  color: whitesmoke;
+  color: black;
 }
 
 #main-container {
@@ -263,17 +264,13 @@ svg {
   margin-top: 7rem;
   text-align: center;
   margin-bottom: 7rem;
-  background: black;
-  color: #ffffff;
   border-style: solid;
-  border-color: #aa0056;
-  border-width: 5px;
+  border-color: #476098;
+  border-width: 7px;
   border-right: 0;
   border-left: 0;
-  font-size: 24px;
-  border-radius: 25%;
+  font-size: 2em;
   letter-spacing: normal;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #about-me-2 {
@@ -305,10 +302,11 @@ svg {
   border-radius: 18px;
   text-align: center;
   border-style: solid;
-  background: black;
-  border-width: 1px;
+  background: #edddd4;
+  color: black;
+  border-width: 7px;
   opacity: 0.85;
-  border-color: #aa0056;
+  border-color: #476098;
   border-right: 0;
   border-left: 0;
   margin-right: 1%;
@@ -325,7 +323,7 @@ svg {
 }
 
 .bottom-icons {
-  color: gold;
+  color: lime;
   font-size: 6rem !important;
 }
 
