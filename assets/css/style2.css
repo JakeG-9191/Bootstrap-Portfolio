@@ -33,18 +33,35 @@ html {
   }
 }
 
-@keyframes intro-change {
+@keyframes color-text-animation-rev {
   0% {
-    border-color: #aa0056;
+    background-size: 57%;
+    background-position: 0 0;
   }
-  33% {
-    border-color: #59108a;
-  }
-  66% {
-    border-color: #20014c;
+  20% {
+    background-size: 57%;
+    background-position: 0 1em;
+    transform: scale(0.9);
   }
   100% {
-    border-color: #aa0056;
+    background-size: 400%;
+    background-position: -2em 1em;
+  }
+}
+
+@keyframes color-text-animation {
+  0% {
+    background-size: 400%;
+    background-position: -2em 1em;
+    transform: scale(1.1);
+  }
+  20% {
+    background-size: 57%;
+    background-position: 0 1em;
+  }
+  100% {
+    background-size: 57%;
+    background-position: 0 0;
   }
 }
 
@@ -170,77 +187,36 @@ a {
   text-align: center;
 }
 
-.rainbow-text {
-  background: #07f107;
-  background-color: #07f107;
-
-  background: conic-gradient(
-    #aa0056 16.666%,
-    #4507f1 16.666%,
-    #4507f1 33.333%,
-    #ba07f1 33.333%,
-    #ba07f1 50%,
-    #edf107 50%,
-    #edf107 66.666%,
-    #07f107 66.666%,
-    #07f107 83.333%,
-    #fc6ff0 83.333%
+.color-text {
+  background-color: #ffffff;
+  background-image: linear-gradient(
+    45deg,
+    #ffffff 50%,
+    #07f107 60%,
+    #f8fc02 70%,
+    #02cafc 80%,
+    #a002fc 90%,
+    #ffffff 100%
   );
 
-  background-size: 100%;
+  background-size: 57%;
   background-repeat: repeat;
-
-  /* Use the text as a mask for the background. */
-  /* This will show the gradient as a text color rather than element bg. */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
-  animation: rainbow-text-animation-rev 0.7s ease forwards;
+  animation: color-text-animation-rev 2s ease forwards;
 
   cursor: pointer;
 }
 
-.rainbow-text:hover {
-  animation: rainbow-text-animation 0.7s ease forwards;
-}
-
-@keyframes rainbow-text-animation-rev {
-  0% {
-    background-size: 57%;
-    background-position: 0 0;
-  }
-  20% {
-    background-size: 57%;
-    background-position: 0 1em;
-    transform: scale(0.9);
-  }
-  100% {
-    background-size: 300%;
-    background-position: -9em 1em;
-  }
-}
-
-@keyframes rainbow-text-animation {
-  0% {
-    background-size: 300%;
-    background-position: -9em 1em;
-    transform: scale(1.1);
-  }
-  20% {
-    background-size: 57%;
-    background-position: 0 1em;
-  }
-  100% {
-    background-size: 57%;
-    background-position: 0 0;
-  }
+.color-text:hover {
+  animation: color-text-animation 2s ease forwards;
 }
 
 #profile-name {
   text-align: center;
   margin-bottom: 6rem;
-  color: whitesmoke;
-  width: 33%;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -248,7 +224,6 @@ a {
 #profile-name-more {
   text-align: center;
   margin-bottom: 6rem;
-  color: whitesmoke;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -278,7 +253,7 @@ a {
   text-align: center;
   margin-bottom: 7rem;
   background: black;
-  color: whitesmoke;
+  color: #ffffff;
   border-style: solid;
   border-color: #aa0056;
   border-width: 5px;
@@ -296,7 +271,7 @@ a {
   text-align: center;
   margin-bottom: 5rem;
   background: black;
-  color: whitesmoke;
+  color: #ffffff;
   border-style: solid;
   border-color: #aa0056;
   border-width: 5px;
@@ -378,7 +353,7 @@ a {
   padding: 2rem;
   text-align: center;
   background: black;
-  color: whitesmoke;
+  color: #ffffff;
   border-style: solid;
   border-color: #aa0056;
   border-width: 5px;
@@ -446,8 +421,7 @@ h4 {
 h1 {
   letter-spacing: normal;
   font-weight: 800;
-  font-size: 5em;
-  line-height: 0.9em;
+  font-size: 4em;
   margin-top: 1.5em;
 }
 
@@ -563,10 +537,6 @@ h2 {
   body {
     background-size: auto;
   }
-  .twitter-timeline {
-    margin-left: 20% !important;
-    width: 60% !important;
-  }
 }
 
 @media (max-width: 988px) {
@@ -648,11 +618,9 @@ h2 {
   }
   #profile-name {
     width: 60%;
-    margin-left: 20%;
   }
   #profile-name-more {
     width: 60%;
-    margin-left: 20%;
   }
 }
 
