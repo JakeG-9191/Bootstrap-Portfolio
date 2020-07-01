@@ -127,6 +127,16 @@ body {
   color: black;
 }
 
+.project-add-info {
+  background-color: black;
+  color: white;
+  opacity: 0.75;
+  border-radius: 4px;
+  text-align: center;
+  width: 96%;
+  margin-left: 2%;
+}
+
 .w-100 {
   height: 14rem;
   width: 100%;
@@ -193,21 +203,21 @@ svg {
 }
 
 .color-text {
-  background-color: #ffffff;
+  background-color: black;
   background-image: conic-gradient(
     #ca4246 16.666%,
-    #e16541 16.666%,
-    #e16541 33.333%,
-    #f18f43 33.333%,
-    #f18f43 50%,
+    #a7489b 16.666%,
+    #a7489b 33.333%,
+    #435df1 33.333%,
+    #435df1 50%,
     #8b9862 50%,
     #8b9862 66.666%,
-    #476098 66.666%,
-    #476098 83.333%,
-    #a7489b 83.333%
+    #000000 66.666%,
+    #000000 83.333%,
+    #e16541 83.333%
   );
 
-  background-size: 57%;
+  background-size: 100%;
   background-repeat: repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

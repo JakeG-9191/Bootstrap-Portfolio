@@ -247,7 +247,7 @@ loadMyProjects = () => {
     class='button'
     target="_blank"
     href="https://github.com/JakeG-9191/Giphy-API"
-    ><i class="material-icons bottom-icons">developer_mode</i></a>
+    ><i class="material-icons bottom-icons">developer_mode</i><p class='project-add-info'>This is a test, this application does all of this cool stuff and then a ton more real cool stuff too.</p></a>
     </div>
     </div>
 
