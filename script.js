@@ -45,7 +45,7 @@ window.addEventListener('scroll', (event) => {
   const { top } = scrollElement.getBoundingClientRect();
   if (top - window.outerHeight < topScroll) {
     scrollElement.style.backgroundImage =
-      'url("../assets/images/trianglilfy-export.png")';
+      'url("../assets/images/trianglify-export.png")';
   }
   if (top - window.outerHeight < midScroll) {
     scrollElement.style.backgroundImage =
@@ -342,6 +342,28 @@ loadMyProjects = () => {
     target="_blank"
     href="https://github.com/JakeG-9191/Bamazon-Node-App"
     ><i class="material-icons bottom-icons">developer_mode</i></a>
+    </div>
+    </div>
+
+    <div class='col-12 col-md-4'>
+    <img
+    style='width: 100%; height: ${changeHeight}px;'
+    src="assets/images/john-wick-club-scene-screengrab.jpg"
+    class="other-project-images"
+    alt="Action Giphy App"
+    />
+    <div class='buttonProject'>
+    <a
+    class='button'
+    target="_blank"
+    href="https://jakeg-9191.github.io/Giphy-API/"
+    ><i class="material-icons bottom-icons">launch</i></a>
+    <a
+    class='button'
+    target="_blank"
+    href="https://github.com/JakeG-9191/Giphy-API"
+    ><i class="material-icons bottom-icons">developer_mode</i><p class='project-add-info'>This is a test, this application does all of this cool stuff and then a ton more real cool stuff too.</p></a>
+    </div>
     </div>
 `
   );

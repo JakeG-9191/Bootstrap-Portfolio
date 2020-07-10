@@ -71,14 +71,12 @@ body {
   line-height: 34px;
   color: black;
   background-size: cover;
-  /* background-attachment: fixed; */
-  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   width: 100%;
   overflow-y: scroll;
-  /* background-image: url('../images/trianglify-export.png'); */
+  background-image: url('../images/trianglify-export.png');
 }
 
 * {
@@ -173,6 +171,7 @@ p {
   background: #e3ddd1;
   border-top: 5px solid #536c9a;
   padding-top: 7px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #name-tag {
@@ -499,7 +498,7 @@ h6 {
   background: #f67c38;
   margin-bottom: 1rem;
   border-radius: 1px;
-  border-color: whitesmoke;
+  border-color: #ffffff;
   margin-top: 1rem !important;
 }
 
@@ -511,7 +510,7 @@ h6 {
   transform: rotateZ(2deg);
   color: #f67c38;
   -webkit-transition: all 0.7s ease-in-out;
-  cursor: move;
+  cursor: pointer;
 }
 
 .projects-go-here {
@@ -552,6 +551,7 @@ h6 {
 #contact-hr-fix {
   background-color: #476098;
   width: 40%;
+  border-width: 3px;
 }
 
 .contact-hr-fix-publication {
