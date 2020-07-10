@@ -655,10 +655,14 @@ h6 {
     letter-spacing: normal;
   }
   #profile-name {
-    width: 60%;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
   #profile-name-more {
-    width: 60%;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
