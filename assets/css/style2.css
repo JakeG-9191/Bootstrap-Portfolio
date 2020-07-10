@@ -71,14 +71,14 @@ body {
   line-height: 34px;
   color: black;
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   width: 100%;
   overflow-y: scroll;
-  background-image: url('../images/trianglify-export.png');
+  /* background-image: url('../images/trianglify-export.png'); */
 }
 
 * {
@@ -170,8 +170,8 @@ p {
   font-size: 12px;
   color: whitesmoke;
   text-align: center;
-  background: black;
-  border-top: 2px solid #aa0056;
+  background: #e3ddd1;
+  border-top: 5px solid #536c9a;
   padding-top: 7px;
 }
 
@@ -291,6 +291,18 @@ svg {
   border-width: 5px;
   border-right: 0;
   border-left: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background: #ecdfd4;
+  opacity: 0.9;
+}
+
+#about-me-3 {
+  padding: 1rem;
+  margin-top: 7rem;
+  text-align: center;
+  margin-bottom: 5rem;
+  color: #ffffff;
+  opacity: 0.9;
 }
 
 .technology-me {
@@ -365,14 +377,13 @@ svg {
 #contact-information {
   padding: 2rem;
   text-align: center;
-  background: black;
-  color: #ffffff;
+  background: #e3ddd1;
+  color: black;
   border-style: solid;
-  border-color: #aa0056;
+  border-color: #536c9a;
   border-width: 5px;
   border-right: 0;
   border-left: 0;
-  border-radius: 15%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 5rem;
 }
@@ -458,6 +469,16 @@ h6 {
   border-color: #476098;
   margin-left: 6%;
   border-width: 5px;
+  background: #ecdfd4;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-right: 0;
+  border-left: 0;
+}
+
+.publications {
+  font-weight: 600;
+  letter-spacing: normal;
 }
 
 .navbar-toggler {
@@ -536,10 +557,7 @@ h6 {
 .contact-hr-fix-publication {
   background-color: #476098;
   width: 33%;
-}
-
-.publications:hover {
-  color: #ffffff;
+  border-width: 3px;
 }
 
 /* Media Queries */

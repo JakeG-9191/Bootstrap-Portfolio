@@ -386,7 +386,7 @@ loadMyPublications = () => {
 };
 
 loadMySkills = () => {
-  let textInfo = $('<div>').addClass('row').attr('id', 'about-me-2');
+  let textInfo = $('<div>').addClass('row').attr('id', 'about-me-3');
   textInfo.append(`
     <div class="col-md-5 talents">
       <h4>Front End & CMS</h4>
@@ -415,7 +415,7 @@ loadMyContact = () => {
   let textInfo = $('<form>').attr('id', 'contact-information');
   textInfo.append(`            
 <div id="contact-me">
-  <h3 style="color: white">Contact Me</h3>
+  <h3 style="color: black">Contact Me</h3>
 </div>
 <a 
   target="_blank" href="https://github.com/JakeG-9191"
@@ -454,7 +454,7 @@ loadMyContact = () => {
     src="assets/images/links/Email-White.png"
 /></a>
 <hr id='contact-hr-fix'></hr>
-<p style="color: white; margin-top: 1rem">I am available for consultation or hire concerning website or web application development, please email me to discuss projects or positions.</p>
+<p style="color: black; margin-top: 1rem; letter-spacing: normal; font-size: x-large;">I am available for consultation or hire concerning website or web application development, please email me to discuss projects or positions.</p>
 `);
   $('#full-width-bottom').append(textInfo);
 };
@@ -465,7 +465,7 @@ loadMyFooter = () => {
     `
     <div class="row">
       <div class="col-md-12 col-12">
-        <h6>Copyright &copy (2020)</h6>
+        <h6 style="font-weight: 900;">Copyright &copy (2020)</h6>
       </div>
     </div>
     `
