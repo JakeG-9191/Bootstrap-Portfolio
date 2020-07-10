@@ -233,6 +233,28 @@ loadMyProjects = () => {
     <div class='col-12 col-md-4'>
     <img
     style='width: 100%; height: ${changeHeight}px;'
+    src="assets/images/mutual aid.PNG"
+    class="other-project-images"
+    alt="Mutual Aid World Application"
+    />
+    <div class='buttonProject'>
+    <a
+    class='button'
+    target="_blank"
+    href="https://mutualaid.world/"
+    ><i class="material-icons bottom-icons">launch</i></a>
+    <a
+    class='button'
+    target="_blank"
+    href="https://github.com/JakeG-9191/resilience-app"
+    ><i class="material-icons bottom-icons">developer_mode</i><p class='project-add-info'>The Mutual Aid applicaiton was put together by a team of developers, designers, community engagement officers and leaders in response to the COVID-19 outbreak. I provide development, testing and project management services to the application as well as the landing page.</p></a>
+    </div>
+    </div>
+
+
+    <div class='col-12 col-md-4'>
+    <img
+    style='width: 100%; height: ${changeHeight}px;'
     src="assets/images/john-wick-club-scene-screengrab.jpg"
     class="other-project-images"
     alt="Action Giphy App"
@@ -247,9 +269,10 @@ loadMyProjects = () => {
     class='button'
     target="_blank"
     href="https://github.com/JakeG-9191/Giphy-API"
-    ><i class="material-icons bottom-icons">developer_mode</i><p class='project-add-info'>This is a test, this application does all of this cool stuff and then a ton more real cool stuff too.</p></a>
+    ><i class="material-icons bottom-icons">developer_mode</i><p class='project-add-info'>An action themed gif gift, this site has pre-determined awesome movies for users to search for amazing gifs, though they can also search for thier own. Tech includes Boostrap, JavaScript, jQuery and REST API.</p></a>
     </div>
     </div>
+
 
     <div class='col-12 col-md-4'>
     <img
@@ -263,9 +286,10 @@ loadMyProjects = () => {
     class='button'
     target="_blank"
     href="https://myfavoritethingscolorado.com/"
-    ><i class="material-icons bottom-icons">launch</i></a>
+    ><i class="material-icons bottom-icons">launch</i><p class='project-add-info'>E-Commerce website for small business, My Favorite Things. Tech includes custom Liquid and CSS on the Shopify CMS, in addition to in-depth SEO for pages and products.</p></a>
     </div>
     </div>
+
 
     <div class='col-12 col-md-4'>
     <img
@@ -284,9 +308,10 @@ loadMyProjects = () => {
     class='button'
     target="_blank"
     href="https://github.com/JakeG-9191/Barefoot-Voyager"
-    ><i class="material-icons bottom-icons">developer_mode</i></a>
+    ><i class="material-icons bottom-icons">developer_mode</i><p class='project-add-info'>The perfect traveler companion application for those looking to learn about events, weather, and other happenings at thier destination. Tech includes Bootstrap, CSS, JavaScript and various REST API's.</p></a>
     </div>
     </div>
+
 
     <div class='col-12 col-md-4'>
     <img
@@ -305,9 +330,10 @@ loadMyProjects = () => {
     class='button'
     target="_blank"
     href="https://github.com/JakeG-9191/Denver-Dev-Connect"
-    ><i class="material-icons bottom-icons">developer_mode</i></a>
+    ><i class="material-icons bottom-icons">developer_mode</i><p class='project-add-info'>DevConnector is a social media platform focused on developers, users can create profiles, leave messages and more. Tech includes React, Bootstrap, Node, MongoDB, Authentication, Redux and Mongoose.</p></a>
     </div>
     </div>
+
 
     <div class='col-12 col-md-4'>
     <img
@@ -326,9 +352,10 @@ loadMyProjects = () => {
     class='button'
     target="_blank"
     href="https://github.com/JakeG-9191/Friend-Finder"
-    ><i class="material-icons bottom-icons">developer_mode</i></a>
+    ><i class="material-icons bottom-icons">developer_mode</i><p class='project-add-info'>Friend Finder allows you to find your perfect best friend by providing answers to several questions which are then evaluated and compared to other participants for compatibility. Tech includes REST API, Node, Express and MongoDB.</p></a>
     </div>
     </div>
+
 
     <div class='col-12 col-md-4'>
     <img
@@ -341,28 +368,51 @@ loadMyProjects = () => {
     class='button buttonProject'
     target="_blank"
     href="https://github.com/JakeG-9191/Bamazon-Node-App"
-    ><i class="material-icons bottom-icons">developer_mode</i></a>
+    ><i class="material-icons bottom-icons">developer_mode</i><p class='project-add-info'>This CLI application allows user to shop for inventory in the Bamazon store or act as the manager to view or modify current inventory. Tech includes Node and MySQL.</p></a>
     </div>
     </div>
+
 
     <div class='col-12 col-md-4'>
     <img
     style='width: 100%; height: ${changeHeight}px;'
-    src="assets/images/john-wick-club-scene-screengrab.jpg"
+    src="assets/images/WashingtonPost.JPG"
     class="other-project-images"
-    alt="Action Giphy App"
+    alt="Washington Post Scraper"
     />
     <div class='buttonProject'>
     <a
     class='button'
     target="_blank"
-    href="https://jakeg-9191.github.io/Giphy-API/"
+    href="https://chilling-crypt-08855.herokuapp.com/"
     ><i class="material-icons bottom-icons">launch</i></a>
     <a
     class='button'
     target="_blank"
-    href="https://github.com/JakeG-9191/Giphy-API"
-    ><i class="material-icons bottom-icons">developer_mode</i><p class='project-add-info'>This is a test, this application does all of this cool stuff and then a ton more real cool stuff too.</p></a>
+    href="https://github.com/JakeG-9191/Mongo-Search"
+    ><i class="material-icons bottom-icons">developer_mode</i><p class='project-add-info'>The Washington Post Scraper allows users to scrape for the latest articles from the Washington Post, view and save them for later reading. Tech includes MongoDB, Mongoose, Node and JavaScript.</p></a>
+    </div>
+    </div>
+
+    
+    <div class='col-12 col-md-4'>
+    <img
+    style='width: 100%; height: ${changeHeight}px;'
+    src="assets/images/BurgerApp.JPG"
+    class="other-project-images"
+    alt="Burger Madness Application"
+    />
+    <div class='buttonProject'>
+    <a
+    class='button'
+    target="_blank"
+    href="https://agile-hollows-27413.herokuapp.com/"
+    ><i class="material-icons bottom-icons">launch</i></a>
+    <a
+    class='button'
+    target="_blank"
+    href="https://github.com/JakeG-9191/Burger-Madness"
+    ><i class="material-icons bottom-icons">developer_mode</i><p class='project-add-info'>Burger Madness allows users to experiment with all sorts of burger goodness, the application is a simple exercise in MVC and MySQL. Tech includes Node, SQL, HandleBars, and ORM.</p></a>
     </div>
     </div>
 `
