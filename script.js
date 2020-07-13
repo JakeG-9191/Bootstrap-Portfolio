@@ -500,7 +500,7 @@ loadMyContact = () => {
   target="_blank"
   href="https://www.linkedin.com/in/jacob-garlick/"
   ><img
-    id="contact-images-linked"
+    id="contact-images"
     src="assets/images/links/LinkedIn-White.png"
 /></a>
 
