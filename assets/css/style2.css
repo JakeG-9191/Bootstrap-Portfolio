@@ -193,11 +193,6 @@ p {
   text-align: center;
 }
 
-svg {
-  position: fixed;
-  animation: fadeIn 6s ease forwards;
-}
-
 .color-text {
   background-color: black;
   background-image: conic-gradient(
@@ -497,9 +492,7 @@ h6 {
 }
 
 .talents h5:hover {
-  transform: rotateZ(2deg);
   color: #f67c38;
-  -webkit-transition: all 0.7s ease-in-out;
   cursor: pointer;
 }
 
@@ -515,6 +508,7 @@ h6 {
 .material-icons:hover {
   color: #f67c38;
   transform: rotate(90deg);
+  -webkit-transition: all 0.3s ease-in-out;
 }
 
 .spinning {
@@ -548,6 +542,11 @@ h6 {
   background-color: #476098;
   width: 33%;
   border-width: 3px;
+}
+
+a.publications:hover {
+  color: #f67c38;
+  text-decoration: none;
 }
 
 /* Media Queries */

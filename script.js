@@ -449,6 +449,15 @@ loadMyPublications = () => {
         <a 
         class="publications"
         target="_blank"
+        href="https://medium.com/dev-genius/getting-started-with-open-source-ce5231b23de8">
+        Getting Started With Open Source [Medium]
+        </a>
+      </div>
+      <div>
+        <hr class='contact-hr-fix-publication'></hr>
+        <a 
+        class="publications"
+        target="_blank"
         href="https://medium.com/dev-genius/four-quick-css-tricks-to-impress-79673c5edf6e">
         Four Quick CSS Tricks To Impress [Medium]
         </a>
