@@ -532,7 +532,7 @@ h6 {
   z-index: 51;
 }
 
-#contact-hr-fix {
+.contact-hr-fix {
   background-color: #476098;
   width: 40%;
   border-width: 3px;
@@ -547,6 +547,35 @@ h6 {
 a.publications:hover {
   color: #f67c38;
   text-decoration: none;
+}
+
+.form-text {
+  width: 100%;
+  color: black;
+  letter-spacing: normal;
+  font-size: x-large;
+}
+
+label {
+  width: 100%;
+}
+
+input {
+  width: 35%;
+}
+
+textarea {
+  width: 80%;
+  height: 8rem;
+}
+
+form button.btn-dark {
+  width: 35%;
+}
+
+form button.btn-dark:hover {
+  color: #f67c38;
+  transform: scale(1.02);
 }
 
 /* Media Queries */
@@ -662,6 +691,15 @@ a.publications:hover {
   }
   .project-add-info {
     font-size: 12px;
+  }
+  input {
+    width: 90%;
+  }
+  textarea {
+    width: 90%;
+  }
+  form button.btn-dark {
+    width: 80%;
   }
 }
 

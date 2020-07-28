@@ -553,22 +553,23 @@ loadMyContact = () => {
     id="contact-images"
     src="assets/images/links/Email-White.png"
 /></a>
-<hr id='contact-hr-fix'></hr>
+<hr class='contact-hr-fix'></hr>
 <p style="color: black; margin-top: 1rem; letter-spacing: normal; font-size: x-large;">I am available for consultation or hire concerning website or web application development, please email me to discuss projects or positions.</p>
+<hr class='contact-hr-fix'></hr>
 <form
   action="https://formspree.io/mvowdjlr"
   method="POST"
 >
   <label>
-    <p>Your email:</p>
+    <p class='form-text'>Your email:</p>
     <input type="text" name="_replyto">
   </label>
   <label>
-    <p>Your message:</p>
+    <p class='form-text'>Your message:</p>
     <textarea name="message"></textarea>
   </label>
 
-  <button type="submit">Send</button>
+  <button class='btn-dark' type="submit">Send</button>
 </form>
 `);
   $('#full-width-bottom').append(textInfo);
