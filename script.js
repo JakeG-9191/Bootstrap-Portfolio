@@ -546,16 +546,12 @@ loadMyContact = () => {
     src="assets/images/links/Medium-White.png"
 /></a>
 
-<a 
-  target="_blank" 
-  href="mailto:jacobgarlick@msn.com"
-  ><img
-    id="contact-images"
-    src="assets/images/links/Email-White.png"
-/></a>
 <hr class='contact-hr-fix'></hr>
+
 <p style="color: black; margin-top: 1rem; letter-spacing: normal; font-size: x-large;">I am available for consultation or hire concerning website or web application development, please email me to discuss projects or positions.</p>
+
 <hr class='contact-hr-fix'></hr>
+
 <form
   action="https://formspree.io/mvowdjlr"
   method="POST"
