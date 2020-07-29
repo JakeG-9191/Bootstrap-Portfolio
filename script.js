@@ -557,11 +557,11 @@ loadMyContact = () => {
   method="POST"
 >
   <label>
-    <p class='form-text'>Your email:</p>
+    <p class='form-text'>Email:</p>
     <input type="text" name="_replyto">
   </label>
   <label>
-    <p class='form-text'>Your message:</p>
+    <p class='form-text'>Message:</p>
     <textarea name="message"></textarea>
   </label>
 
