@@ -415,23 +415,23 @@ loadMyProjects = () => {
     <div class='col-12 col-md-4'>
     <img
     style='width: 100%; height: ${changeHeight}px;'
-    src="assets/images/BurgerApp.JPG"
+    src="assets/images/Simple-notes.PNG"
     class="other-project-images"
-    alt="Burger Madness Application"
+    alt="Simple Notes Application"
     />
     <div class='buttonProject'>
     <a
     class='button'
     target="_blank"
-    href="https://agile-hollows-27413.herokuapp.com/"
+    href="https://jakeg-9191.github.io/Notes-App/"
     ><i class="material-icons bottom-icons">launch</i></a>
     <a
     class='button'
     target="_blank"
-    href="https://github.com/JakeG-9191/Burger-Madness"
+    href="https://github.com/JakeG-9191/Notes-App"
     ><i class="material-icons bottom-icons">developer_mode</i>
     </a>
-    <p class='project-add-info'>Burger Madness allows users to experiment with all sorts of burger goodness, the application is a simple exercise in MVC and MySQL. Tech includes Node, SQL, HandleBars, and ORM.</p>
+    <p class='project-add-info'>This simple note application allows the user to utilize an extremely lightweight and responsive web based note storage. Information is currently saved based on local storage, so prior notes from the same device and browser will be saved for future use. Notes can be added or removed individually, and can also be mass deleted with one click. Tech includes HTML, CSS, JavaScript, jQuery and Local Storage.</p>
     </div>
     </div>
 `
