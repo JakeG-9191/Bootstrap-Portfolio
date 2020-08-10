@@ -445,6 +445,15 @@ loadMyPublications = () => {
     <div class="col-md-12" id="publication-zone">
       <h3>Publications</h3>
       <div>
+      <hr class='contact-hr-fix-publication'></hr>
+      <a 
+      class="publications"
+      target="_blank"
+      href="https://medium.com/dev-genius/using-formspree-to-set-up-email-on-your-website-f9b51ac45aa7">
+      Using Formspree To Set Up Email On Your Website [Medium]
+      </a>
+    </div>
+      <div>
         <hr class='contact-hr-fix-publication'></hr>
         <a 
         class="publications"
