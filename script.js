@@ -81,9 +81,9 @@ setThis = () => {
 
 loadMyBackground = () => {
   let textInfo = $('<div>').attr('id', 'about-me');
-  textInfo.append(`From database ties and cloud services to user experiences on the
-  front, I work towards providing solutions with a full-stack
-  toolbelt. Whether the work involves websites, applications or browser based games, I
+  textInfo.append(`From database configuration and cloud services to user experiences on the
+  front, I work towards providing solutions with a full-stack, MERN based
+  toolbelt. Whether the work involves websites, progressive applications or browser based games, I
   design, develop, test and produce stylish and polished projects,
   deeply involved from planning to publication. You can see a
   curated list of my work below.`);
@@ -503,7 +503,7 @@ loadMySkills = () => {
       <h5>CSS3</h5>
       <h5>Client JavaScript / ES6+</h5>
       <h5>jQuery</h5>
-      <h5>React</h5>
+      <h5>React / Redux</h5>
       <h5>Bootstrap</h5>
       <h5>Shopify</h5>
   </div>
@@ -512,9 +512,9 @@ loadMySkills = () => {
       <h5>Node.js</h5>
       <h5>Express.js</h5>
       <h5>MongoDB</h5>
-      <h5>MySQL</h5>
+      <h5>PostGreSQL</h5>
       <h5>RESTful APIs</h5>
-      <h5>Unit & Integration Testing</h5>
+      <h5>Authorization & Authentication</h5>
       <h5>Cloud Services (AWS)</h5>
   </div>`);
   $('#full-width-bottom').append(textInfo);
@@ -557,7 +557,7 @@ loadMyContact = () => {
 
 <hr class='contact-hr-fix'></hr>
 
-<p style="color: black; margin-top: 1rem; letter-spacing: normal; font-size: x-large;">I am available for consultation or hire concerning website or web application development, please email me to discuss projects or positions.</p>
+<p style="color: black; margin-top: 1rem; letter-spacing: normal; font-size: x-large;">I am available for consultation and contract work concerning website or web application development on an as needed basis, please email me to discuss projects or positions.</p>
 
 <hr class='contact-hr-fix'></hr>
 
@@ -586,7 +586,7 @@ loadMyFooter = () => {
     `
     <div class="row">
       <div class="col-md-12 col-12">
-        <h6 style="font-weight: 900;">Copyright &copy (2020)</h6>
+        <h6 style="font-weight: 900;">Copyright &copy (2021)</h6>
       </div>
     </div>
     `
