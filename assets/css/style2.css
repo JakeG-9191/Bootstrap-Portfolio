@@ -212,9 +212,7 @@ p {
   background-repeat: repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
   animation: color-text-animation-rev 2s ease forwards;
-
   cursor: pointer;
 }
 

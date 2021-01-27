@@ -98,6 +98,7 @@ loadMyHighlights = () => {
     src="assets/images/Solar 1 resized.png"
     class="card-img-top"
     alt="Our Solar System!"
+    loading="lazy"
   />
   <div class="card-body">
     <h5 class="card-title">Our Solar System!</h5>
@@ -139,6 +140,7 @@ loadMyHighlights = () => {
     src="assets/images/ReignOfReact.JPG"
     class="card-img-top"
     alt="Reign of React"
+    loading="lazy"
   />
   <div class="card-body">
     <h5 class="card-title">Reign of React</h5>
@@ -179,6 +181,7 @@ loadMyHighlights = () => {
     src="assets/images/COVID19.PNG"
     class="card-img-top"
     alt="Friend Finder"
+    loading="lazy"
   />
   <div class="card-body">
     <h5 class="card-title">COVID-19 Info</h5>
@@ -236,6 +239,7 @@ loadMyProjects = () => {
     src="assets/images/mutual aid.PNG"
     class="other-project-images"
     alt="Mutual Aid World Application"
+    loading="lazy"
     />
     <div class='buttonProject'>
     <a
@@ -260,6 +264,7 @@ loadMyProjects = () => {
     src="assets/images/john-wick-club-scene-screengrab.jpg"
     class="other-project-images"
     alt="Action Giphy App"
+    loading="lazy"
     />
     <div class='buttonProject'>
     <a
@@ -284,6 +289,7 @@ loadMyProjects = () => {
     src="assets/images/MyFavoriteThings.PNG"
     class="other-project-images"
     alt="My Favorite Things"
+    loading="lazy"
     />
     <div class='buttonProject'>
     <a
@@ -303,6 +309,7 @@ loadMyProjects = () => {
     src="assets/images/Bearfoot Voyager.JPG"
     class="other-project-images"
     alt="Bearfoot Voyager"
+    loading="lazy"
     />
     <div class='buttonProject'>
     <a
@@ -327,6 +334,7 @@ loadMyProjects = () => {
     src="assets/images/DevConnector.JPG"
     class="other-project-images"
     alt="DevConnector Application"
+    loading="lazy"
     />
     <div class='buttonProject'>
     <a
@@ -351,6 +359,7 @@ loadMyProjects = () => {
     src="assets/images/Friendfinder.JPG"
     class="other-project-images"
     alt="Friend Finder Application"
+    loading="lazy"
     />
     <div class='buttonProject'>
     <a
@@ -375,6 +384,7 @@ loadMyProjects = () => {
     src="assets/images/managerLowInventory.JPG"
     class="other-project-images"
     alt="Bamazon Application"
+    loading="lazy"
     />
     <div class='buttonProject'>
     <a
@@ -394,6 +404,7 @@ loadMyProjects = () => {
     src="assets/images/WashingtonPost.JPG"
     class="other-project-images"
     alt="Washington Post Scraper"
+    loading="lazy"
     />
     <div class='buttonProject'>
     <a
@@ -418,6 +429,7 @@ loadMyProjects = () => {
     src="assets/images/Simple-notes.PNG"
     class="other-project-images"
     alt="Simple Notes Application"
+    loading="lazy"
     />
     <div class='buttonProject'>
     <a
