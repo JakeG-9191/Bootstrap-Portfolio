@@ -598,7 +598,7 @@ loadMyFooter = () => {
     `
     <div class="row">
       <div class="col-md-12 col-12">
-        <h6 style="font-weight: 900;">Copyright &copy (2021)</h6>
+        <h6 style="font-weight: 900;">Copyright &copy ${new Date().getFullYear()}</h6>
       </div>
     </div>
     `
